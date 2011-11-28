@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2561614
+exex.file:                  job_scripts/2561614
+submission_time:            Mon Nov 21 10:08:56 2011
+owner:                      horse
+uid:                        2074
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/horse
+sge_o_log_name:             horse
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19153/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J19153/gen
+merge:                      y
+hard resource_list:         fl_postal=19153
+mail_list:                  horse@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J19153
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J19153
+context:                    thread=9,jobid=J19153,clientcode=TCPIP
+usage    1:                 cpu=01:26:39, mem=22.49464 GBs, io=0.00000, vmem=209.031M, maxvmem=209.031M
+scheduling info:            (Collecting of scheduler job information is turned off)

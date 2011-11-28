@@ -1,0 +1,28 @@
+==============================================================
+job_number:                 2561653
+exex.file:                  job_scripts/2561653
+submission_time:            Mon Nov 21 10:09:50 2011
+owner:                      zulu
+uid:                        10023
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/zulu
+sge_o_log_name:             zulu
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19526/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J19526/gen
+merge:                      y
+hard resource_list:         fl_postal=19526
+mail_list:                  zulu@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J19526
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J19526
+context:                    thread=9,jobid=J19526,clientcode=LIKE
+scheduling info:            (Collecting of scheduler job information is turned off)

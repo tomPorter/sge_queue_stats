@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2570210
+exex.file:                  job_scripts/2570210
+submission_time:            Tue Nov 22 13:38:54 2011
+owner:                      charlie
+uid:                        10099
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/charlie
+sge_o_log_name:             charlie
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J18476/DBStirStew_Daily/ROLLUPS/INDIVIDHPCLS
+sge_o_host:                 xyzzy
+account:                    sge
+cwd:                        /sundial/J18476/DBStirStew_Daily/ROLLUPS/INDIVIDHPCLS
+merge:                      y
+hard resource_list:         fl_postal=18476
+mail_list:                  charlie@xyzzy.i-centrix
+notify:                     FALSE
+job_name:                   x.DB_Daily_ROLLUPS_audit
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            xyzzy
+env_list:                   
+script_file:                x.DB_Daily_ROLLUPS_audit
+jid_predecessor_list (req):  2570208
+jid_predecessor_list:       2570208
+context:                    thread=3,jobid=J18476,clientcode=JACK
+scheduling info:            (Collecting of scheduler job information is turned off)

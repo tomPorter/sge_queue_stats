@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2566570
+exex.file:                  job_scripts/2566570
+submission_time:            Tue Nov 22 02:34:21 2011
+owner:                      echo
+uid:                        10032
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/echo
+sge_o_log_name:             echo
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J18950/gen
+sge_o_host:                 donald
+account:                    sge
+cwd:                        /sundial/J18950/gen
+merge:                      y
+hard resource_list:         fl_postal=18950
+mail_list:                  echo@donald.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.J18950
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Generate
+env_list:                   
+script_file:                x.gen.J18950
+jid_predecessor_list (req):  2566568
+jid_successor_list:          2566572
+context:                    thread=5,jobid=J18950,clientcode=HHS
+usage    1:                 cpu=03:01:34, mem=49.50375 GBs, io=0.00000, vmem=210.422M, maxvmem=210.715M
+scheduling info:            (Collecting of scheduler job information is turned off)

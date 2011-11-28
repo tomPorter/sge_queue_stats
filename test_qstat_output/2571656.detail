@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2571656
+exex.file:                  job_scripts/2571656
+submission_time:            Tue Nov 22 16:25:57 2011
+owner:                      mike
+uid:                        10008
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/mike
+sge_o_log_name:             mike
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19156/restore
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J19156/restore
+merge:                      y
+hard resource_list:         fl_postal=19156
+mail_list:                  mike@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.J15241
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Flagner
+env_list:                   
+script_file:                x.J15241
+context:                    thread=1,jobid=J19156,clientcode=TCPIP
+usage    1:                 cpu=00:00:00, mem=0.01385 GBs, io=0.00000, vmem=112.828M, maxvmem=126.812M
+scheduling info:            (Collecting of scheduler job information is turned off)

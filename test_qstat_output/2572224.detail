@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2572224
+exex.file:                  job_scripts/2572224
+submission_time:            Tue Nov 22 18:01:28 2011
+owner:                      charlie
+uid:                        10099
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/charlie
+sge_o_log_name:             charlie
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J16529/DBStirStew/MyGEM/SegHist
+sge_o_host:                 cracker
+account:                    sge
+cwd:                        /sundial/J16529/DBStirStew/MyGEM/SegHist
+merge:                      y
+hard resource_list:         fl_postal=16529
+mail_list:                  charlie@cracker.i-centrix
+notify:                     FALSE
+job_name:                   x.BlogChaser
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            cracker
+env_list:                   
+script_file:                x.BlogChaser
+jid_predecessor_list (req):  2572222
+jid_successor_list:          2572226
+context:                    thread=1,jobid=J16529,clientcode=FOO
+usage    1:                 cpu=00:03:09, mem=17.74960 GBs, io=24.69487, vmem=224.035M, maxvmem=224.035M
+scheduling info:            (Collecting of scheduler job information is turned off)

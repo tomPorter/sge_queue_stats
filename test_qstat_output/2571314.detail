@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2571314
+exex.file:                  job_scripts/2571314
+submission_time:            Tue Nov 22 15:55:21 2011
+owner:                      dingo
+uid:                        2059
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/dingo
+sge_o_log_name:             dingo
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J16473/PIN
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J16473/PIN
+merge:                      y
+hard resource_list:         fl_postal=16473
+mail_list:                  dingo@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.bal_state_profile
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            taurus
+env_list:                   
+script_file:                x.bal_state_profile
+jid_predecessor_list (req):  2571310
+jid_predecessor_list:       2571310
+context:                    thread=1,jobid=J16473,clientcode=CDE
+scheduling info:            (Collecting of scheduler job information is turned off)

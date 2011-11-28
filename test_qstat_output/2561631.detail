@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2561631
+exex.file:                  job_scripts/2561631
+submission_time:            Mon Nov 21 10:09:18 2011
+owner:                      rainbow
+uid:                        10033
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/rainbow
+sge_o_log_name:             rainbow
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19250/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J19250/gen
+merge:                      y
+hard resource_list:         fl_postal=19250
+mail_list:                  rainbow@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J19250
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J19250
+context:                    thread=9,jobid=J19250,clientcode=NT
+usage    1:                 cpu=00:04:47, mem=1.43450 GBs, io=0.00000, vmem=205.504M, maxvmem=205.504M
+scheduling info:            (Collecting of scheduler job information is turned off)

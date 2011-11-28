@@ -1,0 +1,28 @@
+==============================================================
+job_number:                 2561644
+exex.file:                  job_scripts/2561644
+submission_time:            Mon Nov 21 10:09:36 2011
+owner:                      tango
+uid:                        10017
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/tango
+sge_o_log_name:             tango
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19350/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J19350/gen
+merge:                      y
+hard resource_list:         fl_postal=19350
+mail_list:                  tango@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J19350
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J19350
+context:                    thread=9,jobid=J19350,clientcode=BAZ
+scheduling info:            (Collecting of scheduler job information is turned off)

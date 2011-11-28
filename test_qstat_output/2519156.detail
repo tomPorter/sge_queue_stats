@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2519156
+exex.file:                  job_scripts/2519156
+submission_time:            Mon Nov 14 13:53:46 2011
+owner:                      lima
+uid:                        2043
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/lima
+sge_o_log_name:             lima
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /Gronk/24590/24591
+sge_o_host:                 ivalue00
+account:                    sge
+cwd:                        /Gronk/24590/24591
+merge:                      y
+hard resource_list:         fl_postal=0000
+mail_list:                  lima@ivalue00.i-centrix
+notify:                     FALSE
+job_name:                   x.Blotto
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            ivalue_VCS
+env_list:                   
+script_file:                x.Blotto
+jid_predecessor_list (req):  2519154
+jid_predecessor_list:       2519154
+context:                    thread=1
+scheduling info:            (Collecting of scheduler job information is turned off)

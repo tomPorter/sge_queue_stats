@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2267638
+exec_file:                  job_scripts/2267638
+submission_time:            Wed Oct  5 11:48:45 2011
+owner:                      corbie
+uid:                        2043
+group:                      staff
+gid:                        10
+sge_o_home:                 /home/corbie
+sge_o_log_name:             corbie
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /Shrub/22846
+sge_o_host:                 shrub00
+account:                    sge
+cwd:                        /Shrub/22846
+merge:                      y
+hard resource_list:         fl_postal=0000
+mail_list:                  corbie@shrub00.i-centrix
+notify:                     FALSE
+job_name:                   x.frogger
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+jobshare:                   0
+hard_queue_list:            shrub_HICK
+env_list:                   
+script_file:                x.frogger
+context:                    thread=1,error_email=yes
+error reason    1:          10/05/2011 12:58:12 [2043:31116]: error: can't chdir to /Shrub/22846: No such file or directory
+scheduling info:            (Collecting of scheduler job information is turned off)

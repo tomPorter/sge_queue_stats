@@ -1,0 +1,1573 @@
+job-ID  prior   name       user         state submit/start at     queue                          slots ja-task-ID 
+-----------------------------------------------------------------------------------------------------------------
+2559238 0.55500 x.gen. charlie       r     11/21/2011 05:04:59 Generate@gen02                  1        
+       Full jobname:     x.gen.J18492
+       Master Queue:     Generate@gen02
+       Hard Resources:   fl_postal=18492 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Generate
+2561541 0.55500 x.gen. lostit      r     11/22/2011 01:05:29 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J18376
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=18376 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561542 0.55500 x.gen. alfred     r     11/22/2011 01:10:29 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J18398
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561546 0.55500 x.gen. zulu    r     11/22/2011 01:57:14 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J18436
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=18436 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561549 0.55500 x.gen. charlie       r     11/22/2011 02:43:44 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J18493
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=18493 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561614 0.55500 x.gen. horse      r     11/22/2011 16:10:44 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J19153
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=19153 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561627 0.55500 x.gen. stoney       r     11/22/2011 17:44:14 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J19246
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=19246 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561628 0.55500 x.gen. stoney       r     11/22/2011 18:03:14 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J19247
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=19247 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561629 0.55500 x.gen. gopher    r     11/22/2011 18:03:14 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J19248
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=19248 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561631 0.55500 x.gen. rainbow      r     11/22/2011 18:53:29 AutoGenerate@gen02              1        
+       Full jobname:     x.gen.auto.J19250
+       Master Queue:     AutoGenerate@gen02
+       Hard Resources:   fl_postal=19250 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561633 0.55500 x.gen. stoney       r     11/22/2011 19:58:14 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J19252
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=19252 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561635 0.55500 x.gen. gopher    r     11/22/2011 20:34:59 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J19281
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=19281 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561636 0.55500 x.gen. gopher    r     11/22/2011 20:44:14 AutoGenerate@gen01              1        
+       Full jobname:     x.gen.auto.J19282
+       Master Queue:     AutoGenerate@gen01
+       Hard Resources:   fl_postal=19282 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2566570 0.55500 x.gen. echo      r     11/22/2011 02:35:14 Generate@gen01                  1        
+       Full jobname:     x.gen.J18950
+       Master Queue:     Generate@gen01
+       Hard Resources:   fl_postal=18950 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Generate
+       Predecessor Jobs (request): 2566568
+2568794 0.55500 x.cvt.1008 bravo       r     11/22/2011 09:56:59 Cleaner@cherry                      1        
+       Full jobname:     x.cvt.1008
+       Master Queue:     Cleaner@cherry
+       Hard Resources:   fl_postal=20098 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+2568795 0.55500 x.cvt.1009 bravo       r     11/22/2011 09:57:14 Cleaner@cherry                      1        
+       Full jobname:     x.cvt.1009
+       Master Queue:     Cleaner@cherry
+       Hard Resources:   fl_postal=20098 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+2570056 0.55500 x.Fixit cleaver     r     11/22/2011 18:04:59 Fixit@vespa                      1        
+       Full jobname:     x.Fixit
+       Master Queue:     Fixit@vespa
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Fixit
+       Predecessor Jobs (request): 2570055
+2570206 0.55500 x.tb_join_ charlie       r     11/22/2011 20:38:59 xyzzy@xyzzy                          1        
+       Full jobname:     x.tb_join_flags
+       Master Queue:     xyzzy@xyzzy
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2570205
+2570343 0.55500 x.xjs_read alfred     r     11/22/2011 20:48:59 Cleaner@cherry                      1        
+       Full jobname:     x.xjs_read
+       Master Queue:     Cleaner@cherry
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+       Predecessor Jobs (request): 2570341
+2570360 0.55500 x.agg_plan alfred     r     11/22/2011 19:37:14 archer@archer                      1        
+       Full jobname:     x.agg_planned_events
+       Master Queue:     archer@archer
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570359
+2571305 0.55500 x.QuickLin dingo       r     11/22/2011 15:55:14 Dropper@linkage01                  1        
+       Full jobname:     x.BakeIt
+       Master Queue:     Dropper@linkage01
+       Hard Resources:   fl_postal=16473 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Dropper
+2571346 0.55500 x.gen. patriot      r     11/22/2011 17:49:29 Generate@gen01                  1        
+       Full jobname:     x.gen.J19238
+       Master Queue:     Generate@gen01
+       Hard Resources:   fl_postal=19238 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Generate
+       Predecessor Jobs (request): 2571320
+2571490 0.55500 x.tb.click eudoxus     r     11/22/2011 20:47:29 hunter@hunter                        1        
+       Full jobname:     x.tb.click_events
+       Master Queue:     hunter@hunter
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571488
+2571656 0.55500 x.J15241   mike       r     11/22/2011 16:25:59 Flagner@gen02              1        
+       Full jobname:     x.J15241
+       Master Queue:     Flagner@gen02
+       Hard Resources:   fl_postal=19156 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Flagner
+2571913 0.55500 x.SFLoader jericho       r     11/22/2011 17:01:44 eric@eric                    1        
+       Full jobname:     x.SFLoader.STACMEING
+       Master Queue:     eric@eric
+       Hard Resources:   fl_postal=19731 (0.000000)
+       Soft Resources:   
+       Hard requested queues: eric
+       Predecessor Jobs (request): 2571910
+2572122 0.55500 x.SFL.dail zephyr     r     11/22/2011 17:58:29 xyzzy@xyzzy                          1        
+       Full jobname:     x.SFL.daily
+       Master Queue:     xyzzy@xyzzy
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572118
+2572131 0.55500 x.SFLoader alfred     r     11/22/2011 18:00:44 folio@folio                        1        
+       Full jobname:     x.SFLoader.vcs
+       Master Queue:     folio@folio
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: folio
+       Predecessor Jobs (request): 2571334
+2572224 0.55500 x.MyGEMLo charlie       r     11/22/2011 20:22:44 cracker@cracker                        1        
+       Full jobname:     x.BlogChaser
+       Master Queue:     cracker@cracker
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572222
+2572406 0.55500 x.linkage  halox    r     11/22/2011 19:44:14 Dropper@linkage03                  1        
+       Full jobname:     x.linkage
+       Master Queue:     Dropper@linkage03
+       Hard Resources:   fl_postal=20101 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Dropper
+       Predecessor Jobs (request): 2572405
+2572500 0.55500 x.SFLoader echo      r     11/22/2011 20:36:29 donald@donald                      1        
+       Full jobname:     x.SFLoader
+       Master Queue:     donald@donald
+       Hard Resources:   fl_postal=18951 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2572499
+2267638 0.55500 x.Jersey lima        Eqw   10/05/2011 11:48:45                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_HHS
+2489625 0.55500 x.Jersey lima        Eqw   11/09/2011 14:57:52                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_FOO
+2516302 0.55500 x.FlagArchi golf         qw    11/14/2011 08:00:22                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2516304 0.55500 x.FlagResto golf         qw    11/14/2011 08:00:22                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2516308 0.55500 x.FlagServe golf         qw    11/14/2011 08:00:26                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2519141 0.55500 x.Jersey lima        Eqw   11/14/2011 13:51:38                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+2519144 0.55500 x.Jersey lima        Eqw   11/14/2011 13:52:34                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+2519154 0.55500 x.Jersey lima        Eqw   11/14/2011 13:53:45                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+2519398 0.55500 x.Jersey lima        Eqw   11/14/2011 14:11:40                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+2523141 0.55500 x.FlagServe golf         qw    11/15/2011 08:00:21                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2523143 0.55500 x.FlagArchi golf         qw    11/15/2011 08:00:22                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2523144 0.55500 x.FlagResto golf         qw    11/15/2011 08:00:23                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2529994 0.55500 x.FlagArchi golf         qw    11/16/2011 08:00:22                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2529996 0.55500 x.FlagServe golf         qw    11/16/2011 08:00:22                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2530000 0.55500 x.FlagResto golf         qw    11/16/2011 08:00:25                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2536448 0.55500 x.FlagArchi golf         qw    11/17/2011 08:00:19                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2536449 0.55500 x.FlagResto golf         qw    11/17/2011 08:00:20                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2536451 0.55500 x.FlagServe golf         qw    11/17/2011 08:00:22                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2543407 0.55500 x.FlagArchi golf         qw    11/18/2011 08:00:19                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2543408 0.55500 x.FlagServe golf         qw    11/18/2011 08:00:20                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2543410 0.55500 x.FlagResto golf         qw    11/18/2011 08:00:21                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2560350 0.55500 x.FlagResto golf         qw    11/21/2011 08:00:23                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2560351 0.55500 x.FlagArchi golf         qw    11/21/2011 08:00:23                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2560352 0.55500 x.FlagServe golf         qw    11/21/2011 08:00:23                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2561637 0.55500 x.gen. gopher    qw    11/21/2011 10:09:26                                    1        
+       Full jobname:     x.gen.auto.J19283
+       Hard Resources:   fl_postal=19283 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561638 0.55500 x.gen. gopher    qw    11/21/2011 10:09:27                                    1        
+       Full jobname:     x.gen.auto.J19284
+       Hard Resources:   fl_postal=19284 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561639 0.55500 x.gen. foxtrot     qw    11/21/2011 10:09:28                                    1        
+       Full jobname:     x.gen.auto.J19285
+       Hard Resources:   fl_postal=19285 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561640 0.55500 x.gen. gopher    qw    11/21/2011 10:09:29                                    1        
+       Full jobname:     x.gen.auto.J19290
+       Hard Resources:   fl_postal=19290 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561641 0.55500 x.gen. gopher    qw    11/21/2011 10:09:30                                    1        
+       Full jobname:     x.gen.auto.J19291
+       Hard Resources:   fl_postal=19291 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561643 0.55500 x.gen. echo      qw    11/21/2011 10:09:35                                    1        
+       Full jobname:     x.gen.auto.J19343
+       Hard Resources:   fl_postal=19343 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561644 0.55500 x.gen. tango     qw    11/21/2011 10:09:36                                    1        
+       Full jobname:     x.gen.auto.J19350
+       Hard Resources:   fl_postal=19350 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561645 0.55500 x.gen. ulemma   qw    11/21/2011 10:09:37                                    1        
+       Full jobname:     x.gen.auto.J19359
+       Hard Resources:   fl_postal=19359 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561646 0.55500 x.gen. charlie       qw    11/21/2011 10:09:40                                    1        
+       Full jobname:     x.gen.auto.J19399
+       Hard Resources:   fl_postal=19399 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561647 0.55500 x.gen. indigo      qw    11/21/2011 10:09:41                                    1        
+       Full jobname:     x.gen.auto.J19417
+       Hard Resources:   fl_postal=19417 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561648 0.55500 x.gen. indigo      qw    11/21/2011 10:09:42                                    1        
+       Full jobname:     x.gen.auto.J19418
+       Hard Resources:   fl_postal=19418 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561649 0.55500 x.gen. stoney       qw    11/21/2011 10:09:43                                    1        
+       Full jobname:     x.gen.auto.J19420
+       Hard Resources:   fl_postal=19420 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561650 0.55500 x.gen. jericho       qw    11/21/2011 10:09:44                                    1        
+       Full jobname:     x.gen.auto.J19438
+       Hard Resources:   fl_postal=19438 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561651 0.55500 x.gen. victor      qw    11/21/2011 10:09:46                                    1        
+       Full jobname:     x.gen.auto.J19448
+       Hard Resources:   fl_postal=19448 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561652 0.55500 x.gen. icing    qw    11/21/2011 10:09:48                                    1        
+       Full jobname:     x.gen.auto.J19512
+       Hard Resources:   fl_postal=19512 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561653 0.55500 x.gen. zulu    qw    11/21/2011 10:09:50                                    1        
+       Full jobname:     x.gen.auto.J19526
+       Hard Resources:   fl_postal=19526 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561654 0.55500 x.gen. flannel        qw    11/21/2011 10:09:51                                    1        
+       Full jobname:     x.gen.auto.J19528
+       Hard Resources:   fl_postal=19528 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561655 0.55500 x.gen. icing    qw    11/21/2011 10:09:52                                    1        
+       Full jobname:     x.gen.auto.J19533
+       Hard Resources:   fl_postal=19533 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561656 0.55500 x.gen. victor      qw    11/21/2011 10:10:01                                    1        
+       Full jobname:     x.gen.auto.J19704
+       Hard Resources:   fl_postal=19704 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561658 0.55500 x.gen. stoney       qw    11/21/2011 10:10:06                                    1        
+       Full jobname:     x.gen.auto.J19713
+       Hard Resources:   fl_postal=19713 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561660 0.55500 x.gen. stoney       qw    11/21/2011 10:10:08                                    1        
+       Full jobname:     x.gen.auto.J19714
+       Hard Resources:   fl_postal=19714 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561661 0.55500 x.gen. patriot      qw    11/21/2011 10:10:10                                    1        
+       Full jobname:     x.gen.auto.J19727
+       Hard Resources:   fl_postal=19727 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561662 0.55500 x.gen. jericho       qw    11/21/2011 10:10:11                                    1        
+       Full jobname:     x.gen.auto.J19731
+       Hard Resources:   fl_postal=19731 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561663 0.55500 x.gen. stoney       qw    11/21/2011 10:10:13                                    1        
+       Full jobname:     x.gen.auto.J19733
+       Hard Resources:   fl_postal=19733 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561664 0.55500 x.gen. stoney       qw    11/21/2011 10:10:15                                    1        
+       Full jobname:     x.gen.auto.J19738
+       Hard Resources:   fl_postal=19738 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561665 0.55500 x.gen. stoney       qw    11/21/2011 10:10:16                                    1        
+       Full jobname:     x.gen.auto.J19739
+       Hard Resources:   fl_postal=19739 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561666 0.55500 x.gen. xray   qw    11/21/2011 10:10:18                                    1        
+       Full jobname:     x.gen.auto.J19776
+       Hard Resources:   fl_postal=19776 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561667 0.55500 x.gen. whiskey      qw    11/21/2011 10:10:20                                    1        
+       Full jobname:     x.gen.auto.J19795
+       Hard Resources:   fl_postal=19795 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561668 0.55500 x.gen. bubba        qw    11/21/2011 10:10:21                                    1        
+       Full jobname:     x.gen.auto.J19800
+       Hard Resources:   fl_postal=19800 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561669 0.55500 x.gen. bubba        qw    11/21/2011 10:10:22                                    1        
+       Full jobname:     x.gen.auto.J19801
+       Hard Resources:   fl_postal=19801 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561671 0.55500 x.gen. whiskey      qw    11/21/2011 10:10:24                                    1        
+       Full jobname:     x.gen.auto.J19857
+       Hard Resources:   fl_postal=19857 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561673 0.55500 x.gen. whiskey      qw    11/21/2011 10:10:25                                    1        
+       Full jobname:     x.gen.auto.J19858
+       Hard Resources:   fl_postal=19858 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561675 0.55500 x.gen. whiskey      qw    11/21/2011 10:10:27                                    1        
+       Full jobname:     x.gen.auto.J19859
+       Hard Resources:   fl_postal=19859 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561676 0.55500 x.gen. movie   qw    11/21/2011 10:10:35                                    1        
+       Full jobname:     x.gen.auto.J20023
+       Hard Resources:   fl_postal=20023 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561677 0.55500 x.gen. icing    qw    11/21/2011 10:10:36                                    1        
+       Full jobname:     x.gen.auto.J20065
+       Hard Resources:   fl_postal=20065 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561678 0.55500 x.gen. query       qw    11/21/2011 10:10:37                                    1        
+       Full jobname:     x.gen.auto.J20066
+       Hard Resources:   fl_postal=20066 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561679 0.55500 x.gen. oscar        qw    11/21/2011 10:10:38                                    1        
+       Full jobname:     x.gen.auto.J20067
+       Hard Resources:   fl_postal=20067 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561680 0.55500 x.gen. delta       qw    11/21/2011 10:10:39                                    1        
+       Full jobname:     x.gen.auto.J20068
+       Hard Resources:   fl_postal=20068 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561682 0.55500 x.gen. icing    qw    11/21/2011 10:10:40                                    1        
+       Full jobname:     x.gen.auto.J20069
+       Hard Resources:   fl_postal=20069 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561685 0.55500 x.gen. bravo       qw    11/21/2011 10:10:42                                    1        
+       Full jobname:     x.gen.auto.J20098
+       Hard Resources:   fl_postal=20098 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561686 0.55500 x.gen. kingdom     qw    11/21/2011 10:10:43                                    1        
+       Full jobname:     x.gen.auto.J20099
+       Hard Resources:   fl_postal=20099 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561687 0.55500 x.gen. jayhawk       qw    11/21/2011 10:10:44                                    1        
+       Full jobname:     x.gen.auto.J20100
+       Hard Resources:   fl_postal=20100 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561688 0.55500 x.gen. halox    qw    11/21/2011 10:10:45                                    1        
+       Full jobname:     x.gen.auto.J20101
+       Hard Resources:   fl_postal=20101 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561689 0.55500 x.gen. query       qw    11/21/2011 10:10:46                                    1        
+       Full jobname:     x.gen.auto.J20102
+       Hard Resources:   fl_postal=20102 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561690 0.55500 x.gen. bravo       qw    11/21/2011 10:10:47                                    1        
+       Full jobname:     x.gen.auto.J20103
+       Hard Resources:   fl_postal=20103 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561691 0.55500 x.gen. query       qw    11/21/2011 10:10:48                                    1        
+       Full jobname:     x.gen.auto.J20104
+       Hard Resources:   fl_postal=20104 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561692 0.55500 x.gen. query       qw    11/21/2011 10:10:49                                    1        
+       Full jobname:     x.gen.auto.J20105
+       Hard Resources:   fl_postal=20105 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561693 0.55500 x.gen. alpha    qw    11/21/2011 10:10:50                                    1        
+       Full jobname:     x.gen.auto.J20107
+       Hard Resources:   fl_postal=20107 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561694 0.55500 x.gen. bravo       qw    11/21/2011 10:10:52                                    1        
+       Full jobname:     x.gen.auto.J20130
+       Hard Resources:   fl_postal=20130 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561695 0.55500 x.gen. victor      qw    11/21/2011 10:10:54                                    1        
+       Full jobname:     x.gen.auto.J20154
+       Hard Resources:   fl_postal=20154 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561696 0.55500 x.gen. delta       qw    11/21/2011 10:10:55                                    1        
+       Full jobname:     x.gen.auto.J20167
+       Hard Resources:   fl_postal=20167 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2561697 0.55500 x.gen. halox    qw    11/21/2011 10:10:56                                    1        
+       Full jobname:     x.gen.auto.J20170
+       Hard Resources:   fl_postal=20170 (0.000000)
+       Soft Resources:   
+       Hard requested queues: AutoGenerate
+2567891 0.55500 x.FlagResto golf         qw    11/22/2011 08:00:20                                    1        
+       Full jobname:     x.FlagRestoreUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2567894 0.55500 x.FlagServe golf         qw    11/22/2011 08:00:21                                    1        
+       Full jobname:     x.FlagServerUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2567897 0.55500 x.FlagArchi golf         qw    11/22/2011 08:00:23                                    1        
+       Full jobname:     x.FlagGenerateUse
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: systems_submit
+2489626 0.00000 x.Blotto lima        hqw   11/09/2011 14:57:53                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_FOO
+       Predecessor Jobs (request): 2489625
+       Predecessor Jobs: 2489625
+2519142 0.00000 x.Blotto lima        hqw   11/14/2011 13:51:39                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+       Predecessor Jobs (request): 2519141
+       Predecessor Jobs: 2519141
+2519145 0.00000 x.Blotto lima        hqw   11/14/2011 13:52:35                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+       Predecessor Jobs (request): 2519144
+       Predecessor Jobs: 2519144
+2519156 0.00000 x.Blotto lima        hqw   11/14/2011 13:53:46                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+       Predecessor Jobs (request): 2519154
+       Predecessor Jobs: 2519154
+2519399 0.00000 x.Blotto lima        hqw   11/14/2011 14:11:42                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=0000 (0.000000)
+       Soft Resources:   
+       Hard requested queues: ivalue_VCS
+       Predecessor Jobs (request): 2519398
+       Predecessor Jobs: 2519398
+2550457 0.00000 x.fu_remov echo      qw    11/19/2011 09:01:01                                    1        
+       Full jobname:     x.fu_remove_work
+       Hard Resources:   fl_postal=18954 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2550454
+2550459 0.00000 x.us_remov echo      hqw   11/19/2011 09:01:03                                    1        
+       Full jobname:     x.us_remove_dstore
+       Hard Resources:   fl_postal=18954 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2550457
+       Predecessor Jobs: 2550457
+2550462 0.00000 x.moveold  echo      hqw   11/19/2011 09:01:04                                    1        
+       Full jobname:     x.moveold
+       Hard Resources:   fl_postal=18954 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2550459
+       Predecessor Jobs: 2550459
+2553125 0.00000 x.fu_remov echo      qw    11/20/2011 00:37:31                                    1        
+       Full jobname:     x.fu_remove_work
+       Hard Resources:   fl_postal=18955 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2553124
+2553128 0.00000 x.us_remov echo      hqw   11/20/2011 00:37:34                                    1        
+       Full jobname:     x.us_remove_dstore
+       Hard Resources:   fl_postal=18955 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2553125
+       Predecessor Jobs: 2553125
+2553130 0.00000 x.moveold  echo      hqw   11/20/2011 00:37:36                                    1        
+       Full jobname:     x.moveold
+       Hard Resources:   fl_postal=18955 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2553128
+       Predecessor Jobs: 2553128
+2555843 0.00000 x.FlagWeek  echo      qw    11/20/2011 13:43:46                                    1        
+       Full jobname:     x.FlagWeek
+       Hard Resources:   fl_postal=16566 (0.000000)
+       Soft Resources:   
+       Hard requested queues: taurus
+       Predecessor Jobs (request): 2554675
+2559479 0.00000 x.fu_remov echo      qw    11/21/2011 05:32:18                                    1        
+       Full jobname:     x.fu_remove_work
+       Hard Resources:   fl_postal=18956 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2559478
+2559480 0.00000 x.us_remov echo      hqw   11/21/2011 05:32:21                                    1        
+       Full jobname:     x.us_remove_dstore
+       Hard Resources:   fl_postal=18956 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2559479
+       Predecessor Jobs: 2559479
+2559481 0.00000 x.moveold  echo      hqw   11/21/2011 05:32:24                                    1        
+       Full jobname:     x.moveold
+       Hard Resources:   fl_postal=18956 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2559480
+       Predecessor Jobs: 2559480
+2561814 0.00000 x.FileRece alfred     qw    11/21/2011 10:21:26                                    1        
+       Full jobname:     x.FileReceiveWeek4
+       Hard Resources:   fl_postal=16850 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2517377
+2561815 0.00000 x.GetStats alfred     hqw   11/21/2011 10:21:28                                    1        
+       Full jobname:     x.GetStats_week4
+       Hard Resources:   fl_postal=16850 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2561814
+       Predecessor Jobs: 2561814
+2565132 0.00000 x.zip_ship klingon      qw    11/21/2011 16:49:08                                    1        
+       Full jobname:     x.zip_ship
+       Hard Resources:   fl_postal=18500 (0.000000)
+       Soft Resources:   
+       Hard requested queues: crater
+2566572 0.00000 x.fu_remov echo      hqw   11/22/2011 02:34:32                                    1        
+       Full jobname:     x.fu_remove_work
+       Hard Resources:   fl_postal=18950 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2566570
+       Predecessor Jobs: 2566570
+2566573 0.00000 x.us_remov echo      hqw   11/22/2011 02:34:43                                    1        
+       Full jobname:     x.us_remove_dstore
+       Hard Resources:   fl_postal=18950 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2566572
+       Predecessor Jobs: 2566572
+2566575 0.00000 x.moveold  echo      hqw   11/22/2011 02:34:54                                    1        
+       Full jobname:     x.moveold
+       Hard Resources:   fl_postal=18950 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2566573
+       Predecessor Jobs: 2566573
+2566951 0.00000 x.PostArch charlie       hqw   11/22/2011 04:55:17                                    1        
+       Full jobname:     x.PostGenerateFileRemove
+       Hard Resources:   fl_postal=18492 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2566936, 2559238
+       Predecessor Jobs: 2559238
+2568796 0.00000 x.cvt.1011 bravo       hqw   11/22/2011 09:57:24                                    1        
+       Full jobname:     x.cvt.1011
+       Hard Resources:   fl_postal=20098 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+       Predecessor Jobs (request): 2568794
+       Predecessor Jobs: 2568794
+2570057 0.00000 x.xjs_read cleaver     hqw   11/22/2011 13:19:56                                    1        
+       Full jobname:     x.xjs_read
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+       Predecessor Jobs (request): 2570056
+       Predecessor Jobs: 2570056
+2570058 0.00000 x.CombineD cleaver     hqw   11/22/2011 13:19:57                                    1        
+       Full jobname:     x.CombineDeletes
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570057
+       Predecessor Jobs: 2570057
+2570059 0.00000 x.CombineC cleaver     hqw   11/22/2011 13:19:58                                    1        
+       Full jobname:     x.CombineChanges
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570058
+       Predecessor Jobs: 2570058
+2570060 0.00000 x.SortNCOA cleaver     hqw   11/22/2011 13:19:59                                    1        
+       Full jobname:     x.SortNCOATrans
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570059
+       Predecessor Jobs: 2570059
+2570061 0.00000 x.BAZ_Appl cleaver     hqw   11/22/2011 13:20:01                                    1        
+       Full jobname:     x.BAZ_ApplyChanges_NCOA
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570060
+       Predecessor Jobs: 2570060
+2570062 0.00000 x.isort_co cleaver     hqw   11/22/2011 13:20:02                                    1        
+       Full jobname:     x.isort_combine_ca_us
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570061
+       Predecessor Jobs: 2570061
+2570063 0.00000 x.BadAddrD cleaver     hqw   11/22/2011 13:20:03                                    1        
+       Full jobname:     x.BadAddrDrop
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570062
+       Predecessor Jobs: 2570062
+2570064 0.00000 x.check_is cleaver     hqw   11/22/2011 13:20:05                                    1        
+       Full jobname:     x.check_isam_open
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570063
+       Predecessor Jobs: 2570063
+2570065 0.00000 x.QuickLin cleaver     hqw   11/22/2011 13:20:06                                    1        
+       Full jobname:     x.BakeIt
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Dropper
+       Predecessor Jobs (request): 2570064
+       Predecessor Jobs: 2570064
+2570066 0.00000 x.AddToERe cleaver     hqw   11/22/2011 13:20:08                                    1        
+       Full jobname:     x.AddToERepos
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Elinkage
+       Predecessor Jobs (request): 2570065
+       Predecessor Jobs: 2570065
+2570067 0.00000 x.SortPIN  cleaver     hqw   11/22/2011 13:20:09                                    1        
+       Full jobname:     x.SortPIN
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570066
+       Predecessor Jobs: 2570066
+2570068 0.00000 x.tb_flup_ cleaver     hqw   11/22/2011 13:20:10                                    1        
+       Full jobname:     x.tb_flup_ind
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570067
+       Predecessor Jobs: 2570067
+2570069 0.00000 x.SortHH   cleaver     hqw   11/22/2011 13:20:12                                    1        
+       Full jobname:     x.SortHH
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570068
+       Predecessor Jobs: 2570068
+2570070 0.00000 x.tb_flup_ cleaver     hqw   11/22/2011 13:20:13                                    1        
+       Full jobname:     x.tb_flup_hh
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570069
+       Predecessor Jobs: 2570069
+2570071 0.00000 x.csv2xls  cleaver     hqw   11/22/2011 13:20:15                                    1        
+       Full jobname:     x.csv2xls
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570070
+       Predecessor Jobs: 2570070
+2570072 0.00000 x.Audit.Ec cleaver     hqw   11/22/2011 13:20:16                                    1        
+       Full jobname:     x.Audit.Ecom
+       Hard Resources:   fl_postal=18760 (0.000000)
+       Soft Resources:   
+       Hard requested queues: zephyr
+       Predecessor Jobs (request): 2570071
+       Predecessor Jobs: 2570071
+2570207 0.00000 x.Branch   charlie       hqw   11/22/2011 13:38:49                                    1        
+       Full jobname:     x.Branch
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2570206
+       Predecessor Jobs: 2570206
+2570208 0.00000 x.hh.isort charlie       hqw   11/22/2011 13:38:52                                    1        
+       Full jobname:     x.hh.isort
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2570207
+       Predecessor Jobs: 2570207
+2570210 0.00000 x.DB_Daily charlie       hqw   11/22/2011 13:38:54                                    1        
+       Full jobname:     x.DB_Daily_ROLLUPS_audit
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2570208
+       Predecessor Jobs: 2570208
+2570345 0.00000 x.check_is alfred     hqw   11/22/2011 13:59:08                                    1        
+       Full jobname:     x.check_isam_open
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570343
+       Predecessor Jobs: 2570343
+2570348 0.00000 x.QuickLin alfred     hqw   11/22/2011 13:59:11                                    1        
+       Full jobname:     x.BakeIt
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Dropper
+       Predecessor Jobs (request): 2570345
+       Predecessor Jobs: 2570345
+2570350 0.00000 x.isort_la alfred     hqw   11/22/2011 13:59:13                                    1        
+       Full jobname:     x.isort_lastorder
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570348
+       Predecessor Jobs: 2570348
+2570352 0.00000 x.customer alfred     hqw   11/22/2011 13:59:15                                    1        
+       Full jobname:     x.customer_last_order_date.ml
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570350
+       Predecessor Jobs: 2570350
+2570355 0.00000 x.FileDete alfred     hqw   11/22/2011 13:59:17                                    1        
+       Full jobname:     x.FileDetect_YesMail
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570352
+       Predecessor Jobs: 2570352
+2570357 0.00000 x.tb_Combi alfred     hqw   11/22/2011 13:59:20                                    1        
+       Full jobname:     x.tb_CombineLinked
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: Cleaner
+       Predecessor Jobs (request): 2570355
+       Predecessor Jobs: 2570355
+2570358 0.00000 x.Audit.cu alfred     hqw   11/22/2011 13:59:22                                    1        
+       Full jobname:     x.Audit.customers
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570357
+       Predecessor Jobs: 2570357
+2570361 0.00000 x.Audit.ye alfred     hqw   11/22/2011 13:59:27                                    1        
+       Full jobname:     x.Audit.yesmail
+       Hard Resources:   fl_postal=17906 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+       Predecessor Jobs (request): 2570360
+       Predecessor Jobs: 2570360
+2571076 0.00000 x.launch   zephyr     qw    11/22/2011 15:38:33                                    1        
+       Full jobname:     x.launch
+       Hard Resources:   fl_postal=9220 (0.000000)
+       Soft Resources:   
+       Hard requested queues: archer
+2571306 0.00000 x.state_se dingo       hqw   11/22/2011 15:55:13                                    1        
+       Full jobname:     x.state_segment
+       Hard Resources:   fl_postal=16473 (0.000000)
+       Soft Resources:   
+       Hard requested queues: taurus
+       Predecessor Jobs (request): 2571305
+       Predecessor Jobs: 2571305
+2571308 0.00000 x.reformat dingo       hqw   11/22/2011 15:55:17                                    1        
+       Full jobname:     x.reformat
+       Hard Resources:   fl_postal=16473 (0.000000)
+       Soft Resources:   
+       Hard requested queues: taurus
+       Predecessor Jobs (request): 2571306
+       Predecessor Jobs: 2571306
+2571310 0.00000 x.qlink_au dingo       hqw   11/22/2011 15:55:19                                    1        
+       Full jobname:     x.qlink_audit
+       Hard Resources:   fl_postal=16473 (0.000000)
+       Soft Resources:   
+       Hard requested queues: taurus
+       Predecessor Jobs (request): 2571308
+       Predecessor Jobs: 2571308
+2571314 0.00000 x.bal_stat dingo       hqw   11/22/2011 15:55:21                                    1        
+       Full jobname:     x.bal_state_profile
+       Hard Resources:   fl_postal=16473 (0.000000)
+       Soft Resources:   
+       Hard requested queues: taurus
+       Predecessor Jobs (request): 2571310
+       Predecessor Jobs: 2571310
+2571347 0.00000 x.fu_archi patriot      hqw   11/22/2011 15:57:24                                    1        
+       Full jobname:     x.fu_gen_cleanup
+       Hard Resources:   fl_postal=19238 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2571346
+       Predecessor Jobs: 2571346
+2571493 0.00000 x.ClearHis eudoxus     hqw   11/22/2011 16:02:54                                    1        
+       Full jobname:     x.ClearHistory
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571490
+       Predecessor Jobs: 2571490
+2571495 0.00000 x.GetHisto eudoxus     hqw   11/22/2011 16:02:59                                    1        
+       Full jobname:     x.GetHistory
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571493
+       Predecessor Jobs: 2571493
+2571497 0.00000 x.tb.order eudoxus     hqw   11/22/2011 16:03:02                                    1        
+       Full jobname:     x.tb.orders
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571495
+       Predecessor Jobs: 2571495
+2571499 0.00000 x.MBCurve  eudoxus     hqw   11/22/2011 16:03:06                                    1        
+       Full jobname:     x.MBCurve
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571497
+       Predecessor Jobs: 2571497
+2571501 0.00000 x.MBJoin   eudoxus     hqw   11/22/2011 16:03:10                                    1        
+       Full jobname:     x.MBJoin
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571499
+       Predecessor Jobs: 2571499
+2571503 0.00000 x.MBDecisi eudoxus     hqw   11/22/2011 16:03:14                                    1        
+       Full jobname:     x.MBDecision
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571501
+       Predecessor Jobs: 2571501
+2571505 0.00000 x.tb.slug_ eudoxus     hqw   11/22/2011 16:03:18                                    1        
+       Full jobname:     x.tb.slug_date
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571503
+       Predecessor Jobs: 2571503
+2571508 0.00000 x.StirStewHi eudoxus     hqw   11/22/2011 16:03:22                                    1        
+       Full jobname:     x.StirStewHistory
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571505
+       Predecessor Jobs: 2571505
+2571510 0.00000 x.Activity eudoxus     hqw   11/22/2011 16:03:26                                    1        
+       Full jobname:     x.ActivityAgg
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571508
+       Predecessor Jobs: 2571508
+2571512 0.00000 x.tb.filte eudoxus     hqw   11/22/2011 16:03:30                                    1        
+       Full jobname:     x.tb.filter
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571510
+       Predecessor Jobs: 2571510
+2571513 0.00000 x.ml.drop_ eudoxus     hqw   11/22/2011 16:03:34                                    1        
+       Full jobname:     x.ml.drop_sundial
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571512
+       Predecessor Jobs: 2571512
+2571514 0.00000 x.tb.backe eudoxus     hqw   11/22/2011 16:03:38                                    1        
+       Full jobname:     x.tb.backend
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571513
+       Predecessor Jobs: 2571513
+2571516 0.00000 x.JobDesc. eudoxus     hqw   11/22/2011 16:03:42                                    1        
+       Full jobname:     x.JobDesc.sql
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571514
+       Predecessor Jobs: 2571514
+2571518 0.00000 x.ml.descr eudoxus     hqw   11/22/2011 16:03:47                                    1        
+       Full jobname:     x.ml.descrip
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571516
+       Predecessor Jobs: 2571516
+2571521 0.00000 x.tb_Overv eudoxus     hqw   11/22/2011 16:03:51                                    1        
+       Full jobname:     x.tb_Overview
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571518
+       Predecessor Jobs: 2571518
+2571523 0.00000 x.Overview eudoxus     hqw   11/22/2011 16:03:56                                    1        
+       Full jobname:     x.OverviewReport
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571521
+       Predecessor Jobs: 2571521
+2571524 0.00000 x.ml.drop_ eudoxus     hqw   11/22/2011 16:04:00                                    1        
+       Full jobname:     x.ml.drop_keys
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571523
+       Predecessor Jobs: 2571523
+2571525 0.00000 x.Allocati eudoxus     hqw   11/22/2011 16:04:05                                    1        
+       Full jobname:     x.AllocationReport
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571524
+       Predecessor Jobs: 2571524
+2571526 0.00000 x.ChannelR eudoxus     hqw   11/22/2011 16:04:10                                    1        
+       Full jobname:     x.ChannelReport
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571525
+       Predecessor Jobs: 2571525
+2571527 0.00000 x.UnMatche eudoxus     hqw   11/22/2011 16:04:15                                    1        
+       Full jobname:     x.UnMatchedReport
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571526
+       Predecessor Jobs: 2571526
+2571528 0.00000 x.comb_rep eudoxus     hqw   11/22/2011 16:04:20                                    1        
+       Full jobname:     x.comb_reports
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571527
+       Predecessor Jobs: 2571527
+2571529 0.00000 x.MyGEM.s eudoxus     hqw   11/22/2011 16:04:25                                    1        
+       Full jobname:     x.MyGEM.start
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571528
+       Predecessor Jobs: 2571528
+2571530 0.00000 x.LRF_Buck eudoxus     hqw   11/22/2011 16:04:31                                    1        
+       Full jobname:     x.LRF_BucketCreator
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571529
+       Predecessor Jobs: 2571529
+2571532 0.00000 x.LRF_Buck eudoxus     hqw   11/22/2011 16:04:35                                    1        
+       Full jobname:     x.LRF_BucketCreatorAlternate
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571530
+       Predecessor Jobs: 2571530
+2571533 0.00000 x.multi_lo eudoxus     hqw   11/22/2011 16:04:41                                    1        
+       Full jobname:     x.multi_lookup
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571532
+       Predecessor Jobs: 2571532
+2571534 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:04:46                                    1        
+       Full jobname:     x.BlogChaser.lrf_temp
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571533
+       Predecessor Jobs: 2571533
+2571535 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:04:51                                    1        
+       Full jobname:     x.BlogChaser
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571534
+       Predecessor Jobs: 2571534
+2571536 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:04:56                                    1        
+       Full jobname:     x.BlogChaser.Customers
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571535
+       Predecessor Jobs: 2571535
+2571537 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:05:03                                    1        
+       Full jobname:     x.BlogChaser.Households
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571536
+       Predecessor Jobs: 2571536
+2571538 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:05:08                                    1        
+       Full jobname:     x.BlogChaser.Items
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571537
+       Predecessor Jobs: 2571537
+2571539 0.00000 x.MyGEMLo eudoxus     hqw   11/22/2011 16:05:14                                    1        
+       Full jobname:     x.BlogChaser.Orders
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571538
+       Predecessor Jobs: 2571538
+2571540 0.00000 x.Load_Pro eudoxus     hqw   11/22/2011 16:05:23                                    1        
+       Full jobname:     x.Load_Promo.tb
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571539
+       Predecessor Jobs: 2571539
+2571542 0.00000 x.run_repo eudoxus     hqw   11/22/2011 16:05:28                                    1        
+       Full jobname:     x.run_reports
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571540
+       Predecessor Jobs: 2571540
+2571543 0.00000 x.MyGEM.e eudoxus     hqw   11/22/2011 16:05:33                                    1        
+       Full jobname:     x.MyGEM.end
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571542
+       Predecessor Jobs: 2571542
+2571545 0.00000 x.DNM.Repo eudoxus     hqw   11/22/2011 16:05:39                                    1        
+       Full jobname:     x.DNM.Report
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571543
+       Predecessor Jobs: 2571543
+2571546 0.00000 x.DNR.Repo eudoxus     hqw   11/22/2011 16:05:44                                    1        
+       Full jobname:     x.DNR.Report
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571545
+       Predecessor Jobs: 2571545
+2571547 0.00000 x.CombineR eudoxus     hqw   11/22/2011 16:05:49                                    1        
+       Full jobname:     x.CombineReports
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571546
+       Predecessor Jobs: 2571546
+2571549 0.00000 x.GetStats eudoxus     hqw   11/22/2011 16:05:58                                    1        
+       Full jobname:     x.GetStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571547
+       Predecessor Jobs: 2571547
+2571550 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:06:03                                    1        
+       Full jobname:     x.CombineStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571549
+       Predecessor Jobs: 2571549
+2571551 0.00000 x.CopyToOf eudoxus     hqw   11/22/2011 16:06:09                                    1        
+       Full jobname:     x.CopyToOffice
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571550
+       Predecessor Jobs: 2571550
+2571553 0.00000 x.GetStats eudoxus     hqw   11/22/2011 16:06:15                                    1        
+       Full jobname:     x.GetStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571551
+       Predecessor Jobs: 2571551
+2571555 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:06:21                                    1        
+       Full jobname:     x.CombineStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571553
+       Predecessor Jobs: 2571553
+2571556 0.00000 x.AuditSta eudoxus     hqw   11/22/2011 16:06:26                                    1        
+       Full jobname:     x.AuditStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571555
+       Predecessor Jobs: 2571555
+2571557 0.00000 x.GetStats eudoxus     hqw   11/22/2011 16:06:31                                    1        
+       Full jobname:     x.GetStats.sup
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571556
+       Predecessor Jobs: 2571556
+2571558 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:06:37                                    1        
+       Full jobname:     x.CombineStats.sup
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571557
+       Predecessor Jobs: 2571557
+2571560 0.00000 x.AuditSta eudoxus     hqw   11/22/2011 16:06:43                                    1        
+       Full jobname:     x.AuditStats.sup
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571558
+       Predecessor Jobs: 2571558
+2571564 0.00000 x.agg_orde eudoxus     hqw   11/22/2011 16:06:50                                    1        
+       Full jobname:     x.agg_orders_audit
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571560
+       Predecessor Jobs: 2571560
+2571570 0.00000 x.tb_refor eudoxus     hqw   11/22/2011 16:06:59                                    1        
+       Full jobname:     x.tb_reformat2
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571564
+       Predecessor Jobs: 2571564
+2571575 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:07:05                                    1        
+       Full jobname:     x.CombineStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571570
+       Predecessor Jobs: 2571570
+2571578 0.00000 x.fu_Email eudoxus     hqw   11/22/2011 16:07:11                                    1        
+       Full jobname:     x.fu_EmailAudits
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571575
+       Predecessor Jobs: 2571575
+2571583 0.00000 x.tb_refor eudoxus     hqw   11/22/2011 16:07:16                                    1        
+       Full jobname:     x.tb_reformat
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571578
+       Predecessor Jobs: 2571578
+2571584 0.00000 x.agg_item eudoxus     hqw   11/22/2011 16:07:22                                    1        
+       Full jobname:     x.agg_items_audit
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571583
+       Predecessor Jobs: 2571583
+2571587 0.00000 x.tb_refor eudoxus     hqw   11/22/2011 16:07:28                                    1        
+       Full jobname:     x.tb_reformat2
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571584
+       Predecessor Jobs: 2571584
+2571589 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:07:33                                    1        
+       Full jobname:     x.CombineStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571587
+       Predecessor Jobs: 2571587
+2571591 0.00000 x.fu_Email eudoxus     hqw   11/22/2011 16:07:42                                    1        
+       Full jobname:     x.fu_EmailAudits
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571589
+       Predecessor Jobs: 2571589
+2571592 0.00000 x.tb_outpu eudoxus     hqw   11/22/2011 16:07:47                                    1        
+       Full jobname:     x.tb_output_receipt_counts
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571591
+       Predecessor Jobs: 2571591
+2571593 0.00000 x.tb_GetSt eudoxus     hqw   11/22/2011 16:07:53                                    1        
+       Full jobname:     x.tb_GetStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571592
+       Predecessor Jobs: 2571592
+2571596 0.00000 x.CombineS eudoxus     hqw   11/22/2011 16:07:59                                    1        
+       Full jobname:     x.CombineStats
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571593
+       Predecessor Jobs: 2571593
+2571600 0.00000 x.fu_Email eudoxus     hqw   11/22/2011 16:08:04                                    1        
+       Full jobname:     x.fu_EmailAudits
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571596
+       Predecessor Jobs: 2571596
+2571601 0.00000 x.cleanup_ eudoxus     hqw   11/22/2011 16:08:10                                    1        
+       Full jobname:     x.cleanup_datastore
+       Hard Resources:   fl_postal=19109 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+       Predecessor Jobs (request): 2571600
+       Predecessor Jobs: 2571600
+2571632 0.00000 x.launch_b eudoxus     qw    11/22/2011 16:17:59                                    1        
+       Full jobname:     x.launch_branch
+       Hard Resources:   fl_postal=17986 (0.000000)
+       Soft Resources:   
+       Hard requested queues: hunter
+2571915 0.00000 x.FlagGEM   jericho       hqw   11/22/2011 17:01:05                                    1        
+       Full jobname:     x.FlagGEM
+       Hard Resources:   fl_postal=19731 (0.000000)
+       Soft Resources:   
+       Hard requested queues: eric
+       Predecessor Jobs (request): 2571913
+       Predecessor Jobs: 2571913
+2571917 0.00000 x.GS.smart jericho       hqw   11/22/2011 17:01:08                                    1        
+       Full jobname:     x.GS.smartFOCUS
+       Hard Resources:   fl_postal=19731 (0.000000)
+       Soft Resources:   
+       Hard requested queues: eric
+       Predecessor Jobs (request): 2571915
+       Predecessor Jobs: 2571915
+2571920 0.00000 x.AS.smart jericho       hqw   11/22/2011 17:01:10                                    1        
+       Full jobname:     x.AS.smartFOCUS
+       Hard Resources:   fl_postal=19731 (0.000000)
+       Soft Resources:   
+       Hard requested queues: eric
+       Predecessor Jobs (request): 2571917
+       Predecessor Jobs: 2571917
+2572123 0.00000 x.ftp.trig zephyr     hqw   11/22/2011 17:58:16                                    1        
+       Full jobname:     x.ftp.trigger.order_detail
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572122
+       Predecessor Jobs: 2572122
+2572124 0.00000 x.SFL.orde zephyr     hqw   11/22/2011 17:58:18                                    1        
+       Full jobname:     x.SFL.order_detail
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572123
+       Predecessor Jobs: 2572123
+2572125 0.00000 x.tb.preGS zephyr     hqw   11/22/2011 17:58:19                                    1        
+       Full jobname:     x.tb.preGS
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572124
+       Predecessor Jobs: 2572124
+2572126 0.00000 x.GS.smart zephyr     hqw   11/22/2011 17:58:21                                    1        
+       Full jobname:     x.GS.smartFOCUS
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572125
+       Predecessor Jobs: 2572125
+2572127 0.00000 x.AS.smart zephyr     hqw   11/22/2011 17:58:23                                    1        
+       Full jobname:     x.AS.smartFOCUS
+       Hard Resources:   fl_postal=18476 (0.000000)
+       Soft Resources:   
+       Hard requested queues: xyzzy
+       Predecessor Jobs (request): 2572126
+       Predecessor Jobs: 2572126
+2572137 0.00000 x.Blotto alfred     hqw   11/22/2011 18:00:19                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: GEM
+       Predecessor Jobs (request): 2572131
+       Predecessor Jobs: 2572131
+2572141 0.00000 x.GS.smart alfred     hqw   11/22/2011 18:00:22                                    1        
+       Full jobname:     x.GS.smartFOCUS
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: folio
+       Predecessor Jobs (request): 2572137
+       Predecessor Jobs: 2572137
+2572146 0.00000 x.CS.smart alfred     hqw   11/22/2011 18:00:25                                    1        
+       Full jobname:     x.CS.smartFOCUS
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: folio
+       Predecessor Jobs (request): 2572141
+       Predecessor Jobs: 2572141
+2572149 0.00000 x.AS.smart alfred     hqw   11/22/2011 18:00:29                                    1        
+       Full jobname:     x.AS.smartFOCUS
+       Hard Resources:   fl_postal=18398 (0.000000)
+       Soft Resources:   
+       Hard requested queues: folio
+       Predecessor Jobs (request): 2572146
+       Predecessor Jobs: 2572146
+2572226 0.00000 x.ProdClas charlie       hqw   11/22/2011 18:01:31                                    1        
+       Full jobname:     x.ProdClassFi
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572224
+       Predecessor Jobs: 2572224
+2572229 0.00000 x.MyGEMLo charlie       hqw   11/22/2011 18:01:33                                    1        
+       Full jobname:     x.BlogChaser.PRODUCT_CLASSIFICATION
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572226
+       Predecessor Jobs: 2572226
+2572231 0.00000 x.MyGEMLo charlie       hqw   11/22/2011 18:01:36                                    1        
+       Full jobname:     x.BlogChaser_NewIntel
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572229
+       Predecessor Jobs: 2572229
+2572233 0.00000 x.Jersey charlie       hqw   11/22/2011 18:01:39                                    1        
+       Full jobname:     x.Jersey
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: GEM
+       Predecessor Jobs (request): 2572231
+       Predecessor Jobs: 2572231
+2572235 0.00000 x.Blotto charlie       hqw   11/22/2011 18:01:41                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: GEM
+       Predecessor Jobs (request): 2572233
+       Predecessor Jobs: 2572233
+2572237 0.00000 x.TransBui charlie       hqw   11/22/2011 18:01:44                                    1        
+       Full jobname:     x.TransBuild
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572235
+       Predecessor Jobs: 2572235
+2572240 0.00000 x.MyGEMLo charlie       hqw   11/22/2011 18:01:47                                    1        
+       Full jobname:     x.BlogChaser
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572237
+       Predecessor Jobs: 2572237
+2572242 0.00000 x.MyGEMLo charlie       hqw   11/22/2011 18:01:50                                    1        
+       Full jobname:     x.BlogChaser_Old
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572240
+       Predecessor Jobs: 2572240
+2572244 0.00000 x.Coop_Ora charlie       hqw   11/22/2011 18:01:53                                    1        
+       Full jobname:     x.Coop_BlogChaser_Email.branch
+       Hard Resources:   fl_postal=16529 (0.000000)
+       Soft Resources:   
+       Hard requested queues: cracker
+       Predecessor Jobs (request): 2572242
+       Predecessor Jobs: 2572242
+2572501 0.00000 x.Blotto echo      hqw   11/22/2011 20:36:04                                    1        
+       Full jobname:     x.Blotto
+       Hard Resources:   fl_postal=18951 (0.000000)
+       Soft Resources:   
+       Hard requested queues: GEM
+       Predecessor Jobs (request): 2572500
+       Predecessor Jobs: 2572500
+2572502 0.00000 x.GS.smart echo      hqw   11/22/2011 20:36:06                                    1        
+       Full jobname:     x.GS.smartFOCUS
+       Hard Resources:   fl_postal=18951 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2572501
+       Predecessor Jobs: 2572501
+2572503 0.00000 x.CS.smart echo      hqw   11/22/2011 20:36:08                                    1        
+       Full jobname:     x.CS.smartFOCUS
+       Hard Resources:   fl_postal=18951 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2572502
+       Predecessor Jobs: 2572502
+2572504 0.00000 x.AS.smart echo      hqw   11/22/2011 20:36:10                                    1        
+       Full jobname:     x.AS.smartFOCUS
+       Hard Resources:   fl_postal=18951 (0.000000)
+       Soft Resources:   
+       Hard requested queues: donald
+       Predecessor Jobs (request): 2572503
+       Predecessor Jobs: 2572503

@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2572406
+exex.file:                  job_scripts/2572406
+submission_time:            Tue Nov 22 19:05:06 2011
+owner:                      halox
+uid:                        10018
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/halox
+sge_o_log_name:             halox
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J20101/link2
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J20101/link2
+merge:                      y
+hard resource_list:         fl_postal=20101
+mail_list:                  halox@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.linkage
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Dropper
+env_list:                   
+script_file:                x.linkage
+jid_predecessor_list (req):  2572405
+context:                    thread=1,jobid=J20101,clientcode=TEL
+usage    1:                 cpu=00:24:00, mem=1255.56206 GBs, io=0.00000, vmem=1.217G, maxvmem=1.465G
+scheduling info:            (Collecting of scheduler job information is turned off)

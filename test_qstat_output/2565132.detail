@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2565132
+exex.file:                  job_scripts/2565132
+submission_time:            Mon Nov 21 16:49:08 2011
+owner:                      klingon
+uid:                        10045
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/klingon
+sge_o_log_name:             klingon
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J18500/nxjs_returns_20111123
+sge_o_host:                 hercules
+execution_time:             Wed Nov 23 08:00:00 2011
+account:                    sge
+cwd:                        /sundial/J18500/nxjs_returns_20111123
+merge:                      y
+hard resource_list:         fl_postal=18500
+mail_list:                  klingon@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.zip_ship
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            crater
+env_list:                   
+script_file:                x.zip_ship
+context:                    thread=1,jobid=J18500,clientcode=BAR
+scheduling info:            (Collecting of scheduler job information is turned off)

@@ -1,0 +1,28 @@
+==============================================================
+job_number:                 2561660
+exex.file:                  job_scripts/2561660
+submission_time:            Mon Nov 21 10:10:08 2011
+owner:                      stoney
+uid:                        10040
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/stoney
+sge_o_log_name:             stoney
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19714/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J19714/gen
+merge:                      y
+hard resource_list:         fl_postal=19714
+mail_list:                  stoney@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J19714
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J19714
+context:                    thread=9,jobid=J19714,clientcode=PATR
+scheduling info:            (Collecting of scheduler job information is turned off)

@@ -1,0 +1,28 @@
+==============================================================
+job_number:                 2516304
+exex.file:                  job_scripts/2516304
+submission_time:            Mon Nov 14 08:00:22 2011
+owner:                      golf
+uid:                        0
+group:                      golf
+gid:                        0
+sge_o_home:                 /golf
+sge_o_log_name:             golf
+sge_o_path:                 /home
+sge_o_shell:                /bin/sh
+sge_o_workdir:              /golf
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /golf
+merge:                      y
+hard resource_list:         fl_postal=0000
+mail_list:                  golf@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.FlagRestoreUse
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            systems_submit
+env_list:                   
+script_file:                /appl/scripts/system/Parameter/RestoreUseReport/x.FlagRestoreUse
+context:                    thread=1
+scheduling info:            (Collecting of scheduler job information is turned off)

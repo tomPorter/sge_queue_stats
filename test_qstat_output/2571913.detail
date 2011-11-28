@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2571913
+exex.file:                  job_scripts/2571913
+submission_time:            Tue Nov 22 17:01:03 2011
+owner:                      jericho
+uid:                        10054
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/jericho
+sge_o_log_name:             jericho
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J19731/DBStirStew/MICRO
+sge_o_host:                 eric
+account:                    sge
+cwd:                        /sundial/J19731/DBStirStew/MICRO
+merge:                      y
+hard resource_list:         fl_postal=19731
+mail_list:                  jericho@eric.i-centrix
+notify:                     FALSE
+job_name:                   x.SFLoader.STACMEING
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            eric
+env_list:                   
+script_file:                x.SFLoader.STACMEING
+jid_predecessor_list (req):  2571910
+jid_successor_list:          2571915
+context:                    thread=1,jobid=J19731,clientcode=TEL
+usage    1:                 cpu=00:00:00, mem=0.09661 GBs, io=0.01433, vmem=1.222G, maxvmem=1.222G
+scheduling info:            (Collecting of scheduler job information is turned off)

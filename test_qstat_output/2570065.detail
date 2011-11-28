@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2570065
+exex.file:                  job_scripts/2570065
+submission_time:            Tue Nov 22 13:20:06 2011
+owner:                      cleaver
+uid:                        10090
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/cleaver
+sge_o_log_name:             cleaver
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J18760/DBStirStew/StirStew
+sge_o_host:                 zephyr
+account:                    sge
+cwd:                        /sundial/J18760/DBStirStew/StirStew
+merge:                      y
+hard resource_list:         fl_postal=18760
+mail_list:                  cleaver@zephyr.i-centrix
+notify:                     FALSE
+job_name:                   x.BakeIt
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Dropper
+env_list:                   
+script_file:                x.BakeIt
+jid_predecessor_list (req):  2570064
+jid_predecessor_list:       2570064
+jid_successor_list:          2570066
+context:                    thread=1,jobid=J18760,clientcode=WWW
+scheduling info:            (Collecting of scheduler job information is turned off)

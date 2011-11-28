@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2561546
+exex.file:                  job_scripts/2561546
+submission_time:            Mon Nov 21 10:07:04 2011
+owner:                      zulu
+uid:                        10023
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/zulu
+sge_o_log_name:             zulu
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J18436/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J18436/gen
+merge:                      y
+hard resource_list:         fl_postal=18436
+mail_list:                  zulu@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J18436
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J18436
+context:                    thread=9,jobid=J18436,clientcode=JACK
+usage    1:                 cpu=01:23:38, mem=21.76141 GBs, io=0.00000, vmem=208.078M, maxvmem=208.078M
+scheduling info:            (Collecting of scheduler job information is turned off)

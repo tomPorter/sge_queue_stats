@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2561542
+exex.file:                  job_scripts/2561542
+submission_time:            Mon Nov 21 10:06:58 2011
+owner:                      alfred
+uid:                        10103
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/alfred
+sge_o_log_name:             alfred
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J18398/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J18398/gen
+merge:                      y
+hard resource_list:         fl_postal=18398
+mail_list:                  alfred@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J18398
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J18398
+context:                    thread=9,jobid=J18398,clientcode=VCS
+usage    1:                 cpu=05:57:18, mem=93.18113 GBs, io=0.00000, vmem=208.516M, maxvmem=318.324M
+scheduling info:            (Collecting of scheduler job information is turned off)

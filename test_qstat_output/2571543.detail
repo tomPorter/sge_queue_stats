@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2571543
+exex.file:                  job_scripts/2571543
+submission_time:            Tue Nov 22 16:05:33 2011
+owner:                      eudoxus
+uid:                        10111
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/eudoxus
+sge_o_log_name:             eudoxus
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J19109/StirStew/Reports/StirStew
+sge_o_host:                 hunter
+account:                    sge
+cwd:                        /sundial/J19109/StirStew/Reports/StirStew
+merge:                      y
+hard resource_list:         fl_postal=19109
+mail_list:                  eudoxus@hunter.i-centrix
+notify:                     FALSE
+job_name:                   x.MyGEM.end
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            hunter
+env_list:                   
+script_file:                x.MyGEM.end
+jid_predecessor_list (req):  2571542
+jid_predecessor_list:       2571542
+jid_successor_list:          2571545
+context:                    thread=1,jobid=J19109,clientcode=CFB
+scheduling info:            (Collecting of scheduler job information is turned off)

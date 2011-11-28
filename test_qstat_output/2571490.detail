@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2571490
+exex.file:                  job_scripts/2571490
+submission_time:            Tue Nov 22 16:02:51 2011
+owner:                      eudoxus
+uid:                        10111
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/eudoxus
+sge_o_log_name:             eudoxus
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J19109/StirStew/I-Dentify/Prep
+sge_o_host:                 hunter
+account:                    sge
+cwd:                        /sundial/J19109/StirStew/I-Dentify/Prep
+merge:                      y
+hard resource_list:         fl_postal=19109
+mail_list:                  eudoxus@hunter.i-centrix
+notify:                     FALSE
+job_name:                   x.tb.click_events
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            hunter
+env_list:                   
+script_file:                x.tb.click_events
+jid_predecessor_list (req):  2571488
+jid_successor_list:          2571493
+context:                    thread=1,jobid=J19109,clientcode=CFB
+usage    1:                 cpu=00:01:35, mem=7.63581 GBs, io=0.94186, vmem=150.066M, maxvmem=150.066M
+scheduling info:            (Collecting of scheduler job information is turned off)

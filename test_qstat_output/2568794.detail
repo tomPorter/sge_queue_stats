@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2568794
+exex.file:                  job_scripts/2568794
+submission_time:            Tue Nov 22 09:56:51 2011
+owner:                      bravo
+uid:                        2066
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/bravo
+sge_o_log_name:             bravo
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J20098/cvt/1008
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J20098/cvt/1008
+merge:                      y
+hard resource_list:         fl_postal=20098
+mail_list:                  bravo@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.cvt.1008
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Cleaner
+env_list:                   
+script_file:                x.cvt.1008
+jid_successor_list:          2568796
+context:                    thread=2,jobid=J20098,clientcode=III
+usage    1:                 cpu=08:48:29, mem=74000.13017 GBs, io=0.00000, vmem=2.399G, maxvmem=2.402G
+scheduling info:            (Collecting of scheduler job information is turned off)

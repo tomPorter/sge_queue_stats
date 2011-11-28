@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2572244
+exex.file:                  job_scripts/2572244
+submission_time:            Tue Nov 22 18:01:53 2011
+owner:                      charlie
+uid:                        10099
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/charlie
+sge_o_log_name:             charlie
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J16529/DBStirStew/MyGEM
+sge_o_host:                 cracker
+account:                    sge
+cwd:                        /sundial/J16529/DBStirStew/MyGEM
+merge:                      y
+hard resource_list:         fl_postal=16529
+mail_list:                  charlie@cracker.i-centrix
+notify:                     FALSE
+job_name:                   x.Coop_BlogChaser_Email.branch
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            cracker
+env_list:                   
+script_file:                x.Coop_BlogChaser_Email.branch
+jid_predecessor_list (req):  2572242
+jid_predecessor_list:       2572242
+context:                    thread=1,jobid=J16529,clientcode=FOO
+scheduling info:            (Collecting of scheduler job information is turned off)

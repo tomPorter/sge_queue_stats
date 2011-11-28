@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2571076
+exex.file:                  job_scripts/2571076
+submission_time:            Tue Nov 22 15:38:33 2011
+owner:                      zephyr
+uid:                        10038
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/zephyr
+sge_o_log_name:             zephyr
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J9220/MICRO/WEEKLY_NO_PROMO
+sge_o_host:                 hercules
+execution_time:             Tue Nov 22 21:00:00 2011
+account:                    sge
+cwd:                        /sundial/J9220/MICRO/WEEKLY_NO_PROMO
+merge:                      y
+hard resource_list:         fl_postal=9220
+mail_list:                  zephyr@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.launch
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            archer
+env_list:                   
+script_file:                x.launch
+context:                    thread=1,jobid=J9220,clientcode=GIT
+scheduling info:            (Collecting of scheduler job information is turned off)

@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2571305
+exex.file:                  job_scripts/2571305
+submission_time:            Tue Nov 22 15:55:10 2011
+owner:                      dingo
+uid:                        2059
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/dingo
+sge_o_log_name:             dingo
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J16473/PIN
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J16473/PIN
+merge:                      y
+hard resource_list:         fl_postal=16473
+mail_list:                  dingo@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.BakeIt
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            Dropper
+env_list:                   
+script_file:                x.BakeIt
+jid_successor_list:          2571306
+context:                    thread=1,jobid=J16473,clientcode=CDE
+usage    1:                 cpu=04:10:13, mem=8572.19714 GBs, io=0.00000, vmem=1.440G, maxvmem=1.447G
+scheduling info:            (Collecting of scheduler job information is turned off)

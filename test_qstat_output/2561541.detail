@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2561541
+exex.file:                  job_scripts/2561541
+submission_time:            Mon Nov 21 10:06:56 2011
+owner:                      lostit
+uid:                        10061
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/lostit
+sge_o_log_name:             lostit
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J18376/gen
+sge_o_host:                 sys02
+account:                    sge
+cwd:                        /sundial/J18376/gen
+merge:                      y
+hard resource_list:         fl_postal=18376
+mail_list:                  lostit@sys02.i-centrix
+notify:                     FALSE
+job_name:                   x.gen.auto.J18376
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            AutoGenerate
+env_list:                   
+script_file:                x.gen.auto.J18376
+context:                    thread=9,jobid=J18376,clientcode=JACK
+usage    1:                 cpu=01:50:03, mem=28.34359 GBs, io=0.00000, vmem=205.953M, maxvmem=205.953M
+scheduling info:            (Collecting of scheduler job information is turned off)

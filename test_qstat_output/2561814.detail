@@ -1,0 +1,31 @@
+==============================================================
+job_number:                 2561814
+exex.file:                  job_scripts/2561814
+submission_time:            Mon Nov 21 10:21:26 2011
+owner:                      alfred
+uid:                        10103
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/alfred
+sge_o_log_name:             alfred
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J16850/FileReceive
+sge_o_host:                 zephyr
+execution_time:             Mon Nov 28 08:00:00 2011
+account:                    sge
+cwd:                        /sundial/J16850/FileReceive
+merge:                      y
+hard resource_list:         fl_postal=16850
+mail_list:                  alfred@zephyr.i-centrix
+notify:                     FALSE
+job_name:                   x.FileReceiveWeek4
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            zephyr
+env_list:                   
+script_file:                x.FileReceiveWeek4
+jid_predecessor_list (req):  2517377
+jid_successor_list:          2561815
+context:                    thread=2,jobid=J16850,clientcode=WSJ
+scheduling info:            (Collecting of scheduler job information is turned off)

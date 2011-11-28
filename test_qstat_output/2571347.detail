@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2571347
+exex.file:                  job_scripts/2571347
+submission_time:            Tue Nov 22 15:57:24 2011
+owner:                      patriot
+uid:                        10092
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/patriot
+sge_o_log_name:             patriot
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J19238/gen
+sge_o_host:                 hercules
+account:                    sge
+cwd:                        /sundial/J19238/gen
+merge:                      y
+hard resource_list:         fl_postal=19238
+mail_list:                  patriot@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.fu_gen_cleanup
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            cracker
+env_list:                   
+script_file:                x.fu_gen_cleanup
+jid_predecessor_list (req):  2571346
+jid_predecessor_list:       2571346
+context:                    thread=1,jobid=J19238,clientcode=PPP
+scheduling info:            (Collecting of scheduler job information is turned off)

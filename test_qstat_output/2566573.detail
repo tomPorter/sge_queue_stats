@@ -1,0 +1,32 @@
+==============================================================
+job_number:                 2566573
+exex.file:                  job_scripts/2566573
+submission_time:            Tue Nov 22 02:34:43 2011
+owner:                      echo
+uid:                        10032
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/echo
+sge_o_log_name:             echo
+sge_o_path:                 /home
+sge_o_shell:                /bin/zsh
+sge_o_workdir:              /sundial/J18950/daily_DBStirStew/PUBLISH
+sge_o_host:                 donald
+execution_time:             Fri Nov 25 23:10:00 2011
+account:                    sge
+cwd:                        /sundial/J18950/daily_DBStirStew/PUBLISH
+merge:                      y
+hard resource_list:         fl_postal=18950
+mail_list:                  echo@donald.i-centrix
+notify:                     FALSE
+job_name:                   x.us_remove_dstore
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            donald
+env_list:                   
+script_file:                x.us_remove_dstore
+jid_predecessor_list (req):  2566572
+jid_predecessor_list:       2566572
+jid_successor_list:          2566575
+context:                    thread=5,jobid=J18950,clientcode=HHS
+scheduling info:            (Collecting of scheduler job information is turned off)

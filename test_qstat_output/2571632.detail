@@ -1,0 +1,29 @@
+==============================================================
+job_number:                 2571632
+exex.file:                  job_scripts/2571632
+submission_time:            Tue Nov 22 16:17:59 2011
+owner:                      eudoxus
+uid:                        10111
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/eudoxus
+sge_o_log_name:             eudoxus
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /sundial/J17986/DBStirStew/Launchers
+sge_o_host:                 hercules
+execution_time:             Wed Nov 23 01:00:00 2011
+account:                    sge
+cwd:                        /sundial/J17986/DBStirStew/Launchers
+merge:                      y
+hard resource_list:         fl_postal=17986
+mail_list:                  eudoxus@hercules.i-centrix
+notify:                     FALSE
+job_name:                   x.launch_branch
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            hunter
+env_list:                   
+script_file:                x.launch_branch
+context:                    thread=1,jobid=J17986,clientcode=BOZO
+scheduling info:            (Collecting of scheduler job information is turned off)

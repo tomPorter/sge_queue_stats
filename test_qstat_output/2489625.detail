@@ -1,0 +1,30 @@
+==============================================================
+job_number:                 2489625
+exex.file:                  job_scripts/2489625
+submission_time:            Wed Nov  9 14:57:52 2011
+owner:                      lima
+uid:                        2043
+group:                      stafr
+gid:                        10
+sge_o_home:                 /home/lima
+sge_o_log_name:             lima
+sge_o_path:                 /home
+sge_o_shell:                /bin/tzsh
+sge_o_workdir:              /Gronk/24398
+sge_o_host:                 ivalue00
+account:                    sge
+cwd:                        /Gronk/24398
+merge:                      y
+hard resource_list:         fl_postal=0000
+mail_list:                  lima@ivalue00.i-centrix
+notify:                     FALSE
+job_name:                   x.Jersey
+stdout_path_list:           NONE:NONE:/tempspace/STDOUT
+sundialhare:                   0
+hard_queue_list:            ivalue_FOO
+env_list:                   
+script_file:                x.Jersey
+jid_successor_list:          2489626
+context:                    thread=1,error_email=yes
+error reason    1:          11/09/2011 15:41:24 [2043:29716]: error: can't chdir to /Gronk/24398: No such file or directory
+scheduling info:            (Collecting of scheduler job information is turned off)
