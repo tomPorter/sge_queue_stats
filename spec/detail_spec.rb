@@ -11,7 +11,7 @@ module Qstat
       @non_existant_line = '1111111 0.00000 x.Rosiefoo floor        hqw   11/09/2011 14:57:53                                    1        '
     end
 
-  	it "should throw an exception when no qstat -j line is found" do
+  	it "should throw an exception when no qstat -j line is found for a given qsid" do
 		  lambda{Detail.new(@non_existant_line)}.should raise_error(NoDetailDataFoundError)
 	  end
 
