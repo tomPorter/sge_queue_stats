@@ -1,7 +1,7 @@
 Queue Stats
 ===========
 
-Displays output from Sun Grid Engine `qstat` command in a periodically 
+Displays output from the [Sun Grid Engine](http://wikis.sun.com/display/GridEngine/Home) `qstat` command in a periodically 
 refreshed page.
 
 Uses a sqlite file-based database to store `qstat` results.  Page requests 
@@ -12,6 +12,11 @@ I am using Sass for CSS generation.
 
 All tests run against mocked up data stored in `test_qstat_output` directory.  
 You do not have to have SGE installed to run tests.
+
+You _must_ have the `bundler` gem installed and be using `rvm` to make this 
+a painless process.  I am using ruby-1.9.3.
+
+`bundle install` to install all needed gems.
 
 `ruby em_get_jobs.rb` to start EventMachine background task and `QueueStats` 
 Sinatra app. This displays output from actual `qstat` command.
