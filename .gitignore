@@ -1,3 +1,6 @@
 *~
 **/*~
+*.log
+**/*.log
 Gemfile.lock
+jobdatabase.db

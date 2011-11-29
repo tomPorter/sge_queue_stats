@@ -1,3 +1,5 @@
+require_relative 'detail'
+require_relative 'command_runner'
 module Qstat
   class Summary < Array
     attr_reader :summary_lines

@@ -1,0 +1,108 @@
+@mixin plain_anchor ($color: black, $bc: lightgray){
+  a {
+      background-color: $bc;
+      color: $color;
+      &:link, &:visited, &:active {
+        text-decoration: none;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+}
+$full-pad:  10px 10px 10px 10px;
+$side-pad:  0px 10px 0px 10px;
+$table-pad:  1px 5px 1px 5px;
+
+
+body {
+  background-color: lightgray;
+  margin-left: 5%;   
+  margin-right: 5%;
+  padding: $full-pad;
+  font-family: sans-serif;
+}
+
+.summary {
+  padding: $full-pad;
+  font-size: 1.5em;
+  .r {@include plain_anchor(forestgreen, lightgray); }
+  .qw {@include plain_anchor(goldenrod, lightgray); }
+  .hqw {@include plain_anchor(red,lightgray); }
+  .Eqw {@include plain_anchor(black,red); }
+  .s {@include plain_anchor(black,red); }
+}
+
+.nav {
+  padding: $full-pad;
+
+  .hdr {
+    font-size: 2.5em;
+    padding: 0px 30px 0px 30px; 
+  }
+}
+      
+
+.refresh{
+  font-size: 1.5em;
+  padding: 0px 20px 0px 20px; 
+  @include plain_anchor();
+
+  .slower {
+    background-color: #ff3300;
+    padding: $side-pad;
+  }
+  .label {
+    padding: $side-pad;
+  }
+  .faster {
+    background-color: #33cc00;
+    padding: $side-pad;
+  }
+}
+
+
+.cleared {
+  background-color: lightgray;
+}
+
+.filtered {
+  background-color: #33cc00;
+}
+
+.error {
+  color: red;
+}      
+      
+.hideme {
+  display: none;
+}
+
+th {
+  border: 1px dotted gray;
+  padding: table-pad;
+  @include plain_anchor();
+
+}
+
+td {
+  border: 1px dotted gray;
+  padding: table-pad;
+  .qsid {@include plain_anchor();}
+  .clientcode {@include plain_anchor();}
+  .jobid {@include plain_anchor();}
+  .command {@include plain_anchor(); font-size: .75em;}
+  .r {@include plain_anchor(forestgreen, lightgray); }
+  .qw {@include plain_anchor(goldenrod, lightgray); }
+  .hqw {@include plain_anchor(red,lightgray); }
+  .Eqw {@include plain_anchor(black,red); }
+  .s {@include plain_anchor(black,red); }
+  .user {@include plain_anchor();}
+  .start_date {@include plain_anchor();}
+  .start_time {@include plain_anchor();}
+  .run_time {@include plain_anchor();}
+  .wait_qsid {@include plain_anchor();}
+  .thread {@include plain_anchor();}
+  .queue_name {@include plain_anchor();}
+}
+

@@ -1,0 +1,211 @@
+body {
+  background-color: lightgray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 10px 10px 10px 10px;
+  font-family: sans-serif; }
+
+.summary {
+  padding: 10px 10px 10px 10px;
+  font-size: 1.5em; }
+  .summary .r a {
+    background-color: lightgray;
+    color: forestgreen; }
+    .summary .r a:link, .summary .r a:visited, .summary .r a:active {
+      text-decoration: none; }
+    .summary .r a:hover {
+      text-decoration: underline; }
+  .summary .qw a {
+    background-color: lightgray;
+    color: goldenrod; }
+    .summary .qw a:link, .summary .qw a:visited, .summary .qw a:active {
+      text-decoration: none; }
+    .summary .qw a:hover {
+      text-decoration: underline; }
+  .summary .hqw a {
+    background-color: lightgray;
+    color: red; }
+    .summary .hqw a:link, .summary .hqw a:visited, .summary .hqw a:active {
+      text-decoration: none; }
+    .summary .hqw a:hover {
+      text-decoration: underline; }
+  .summary .Eqw a {
+    background-color: red;
+    color: black; }
+    .summary .Eqw a:link, .summary .Eqw a:visited, .summary .Eqw a:active {
+      text-decoration: none; }
+    .summary .Eqw a:hover {
+      text-decoration: underline; }
+  .summary .s a {
+    background-color: red;
+    color: black; }
+    .summary .s a:link, .summary .s a:visited, .summary .s a:active {
+      text-decoration: none; }
+    .summary .s a:hover {
+      text-decoration: underline; }
+
+.nav {
+  padding: 10px 10px 10px 10px; }
+  .nav .hdr {
+    font-size: 2.5em;
+    padding: 0px 30px 0px 30px; }
+
+.refresh {
+  font-size: 1.5em;
+  padding: 0px 20px 0px 20px; }
+  .refresh a {
+    background-color: lightgray;
+    color: black; }
+    .refresh a:link, .refresh a:visited, .refresh a:active {
+      text-decoration: none; }
+    .refresh a:hover {
+      text-decoration: underline; }
+  .refresh .slower {
+    background-color: #ff3300;
+    padding: 0px 10px 0px 10px; }
+  .refresh .label {
+    padding: 0px 10px 0px 10px; }
+  .refresh .faster {
+    background-color: #33cc00;
+    padding: 0px 10px 0px 10px; }
+
+.cleared {
+  background-color: lightgray; }
+
+.filtered {
+  background-color: #33cc00; }
+
+.error {
+  color: red; }
+
+.hideme {
+  display: none; }
+
+th {
+  border: 1px dotted gray;
+  padding: table-pad; }
+  th a {
+    background-color: lightgray;
+    color: black; }
+    th a:link, th a:visited, th a:active {
+      text-decoration: none; }
+    th a:hover {
+      text-decoration: underline; }
+
+td {
+  border: 1px dotted gray;
+  padding: table-pad; }
+  td .qsid a {
+    background-color: lightgray;
+    color: black; }
+    td .qsid a:link, td .qsid a:visited, td .qsid a:active {
+      text-decoration: none; }
+    td .qsid a:hover {
+      text-decoration: underline; }
+  td .clientcode a {
+    background-color: lightgray;
+    color: black; }
+    td .clientcode a:link, td .clientcode a:visited, td .clientcode a:active {
+      text-decoration: none; }
+    td .clientcode a:hover {
+      text-decoration: underline; }
+  td .jobid a {
+    background-color: lightgray;
+    color: black; }
+    td .jobid a:link, td .jobid a:visited, td .jobid a:active {
+      text-decoration: none; }
+    td .jobid a:hover {
+      text-decoration: underline; }
+  td .command {
+    font-size: .75em; }
+    td .command a {
+      background-color: lightgray;
+      color: black; }
+      td .command a:link, td .command a:visited, td .command a:active {
+        text-decoration: none; }
+      td .command a:hover {
+        text-decoration: underline; }
+  td .r a {
+    background-color: lightgray;
+    color: forestgreen; }
+    td .r a:link, td .r a:visited, td .r a:active {
+      text-decoration: none; }
+    td .r a:hover {
+      text-decoration: underline; }
+  td .qw a {
+    background-color: lightgray;
+    color: goldenrod; }
+    td .qw a:link, td .qw a:visited, td .qw a:active {
+      text-decoration: none; }
+    td .qw a:hover {
+      text-decoration: underline; }
+  td .hqw a {
+    background-color: lightgray;
+    color: red; }
+    td .hqw a:link, td .hqw a:visited, td .hqw a:active {
+      text-decoration: none; }
+    td .hqw a:hover {
+      text-decoration: underline; }
+  td .Eqw a {
+    background-color: red;
+    color: black; }
+    td .Eqw a:link, td .Eqw a:visited, td .Eqw a:active {
+      text-decoration: none; }
+    td .Eqw a:hover {
+      text-decoration: underline; }
+  td .s a {
+    background-color: red;
+    color: black; }
+    td .s a:link, td .s a:visited, td .s a:active {
+      text-decoration: none; }
+    td .s a:hover {
+      text-decoration: underline; }
+  td .user a {
+    background-color: lightgray;
+    color: black; }
+    td .user a:link, td .user a:visited, td .user a:active {
+      text-decoration: none; }
+    td .user a:hover {
+      text-decoration: underline; }
+  td .start_date a {
+    background-color: lightgray;
+    color: black; }
+    td .start_date a:link, td .start_date a:visited, td .start_date a:active {
+      text-decoration: none; }
+    td .start_date a:hover {
+      text-decoration: underline; }
+  td .start_time a {
+    background-color: lightgray;
+    color: black; }
+    td .start_time a:link, td .start_time a:visited, td .start_time a:active {
+      text-decoration: none; }
+    td .start_time a:hover {
+      text-decoration: underline; }
+  td .run_time a {
+    background-color: lightgray;
+    color: black; }
+    td .run_time a:link, td .run_time a:visited, td .run_time a:active {
+      text-decoration: none; }
+    td .run_time a:hover {
+      text-decoration: underline; }
+  td .wait_qsid a {
+    background-color: lightgray;
+    color: black; }
+    td .wait_qsid a:link, td .wait_qsid a:visited, td .wait_qsid a:active {
+      text-decoration: none; }
+    td .wait_qsid a:hover {
+      text-decoration: underline; }
+  td .thread a {
+    background-color: lightgray;
+    color: black; }
+    td .thread a:link, td .thread a:visited, td .thread a:active {
+      text-decoration: none; }
+    td .thread a:hover {
+      text-decoration: underline; }
+  td .queue_name a {
+    background-color: lightgray;
+    color: black; }
+    td .queue_name a:link, td .queue_name a:visited, td .queue_name a:active {
+      text-decoration: none; }
+    td .queue_name a:hover {
+      text-decoration: underline; }
