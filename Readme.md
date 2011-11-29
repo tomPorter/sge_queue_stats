@@ -23,8 +23,8 @@ To run in test mode (and use dummy data): `RACK_ENV=test ruby em_get_jobs.rb`
 ToDo:
 =====
 
--	`Qstat::CommandRunner` should throw `QstatCommandNotFoundError` if run in `:prod` 
-  mode and command does not exist.
+-	`Qstat::CommandRunner` should throw `QstatCommandNotFoundError` if run in `prod` 
+  mode and `qstat` command does not exist.
 
 - Write tests for `Qstat::Loader`
 
