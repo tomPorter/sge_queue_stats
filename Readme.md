@@ -6,6 +6,4 @@ ToDo:
 
 -	`Qstat::CommandRunner` should throw `QstatCommandNotFoundError` if run in `:prod` mode and command does not exist.
 
--	Make `Qstat::Summary` and `Qstat::Detail` use `Qstat::CommandRunner`
-
-- Anonymize output diretory contents so I can make project public again.
+- Write tests for `Qstat::Loader`
