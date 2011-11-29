@@ -5,7 +5,7 @@ require 'queue_stat/loader'
 ENV['RACK_ENV'] ||= 'prod'
 EventMachine.run do
   EventMachine.add_periodic_timer(30) do 
-    EM.defer do
+    EventMachine.defer do
       Qstat::Loader.load_jobs
     end
   end
