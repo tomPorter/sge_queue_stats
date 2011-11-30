@@ -9,7 +9,9 @@ Then /^I should see a "([^"]*)" containing at least one "([^"]*)"$/ do |arg1, ar
   #end
 end
 
-Then /^I should see the following headings$/ do |table|
+Then /^I should see the following headings$/ do |expected_headers|
   # table is a Cucumber::Ast::Table  
-  pending
+  header_row_columns = find('thead').all('tr')
+  real_headers = header_row_columns.map {|r| r.all('th').map {|c| c.text.strip } }
+  expected_headers.diff!(real_headers)
 end
