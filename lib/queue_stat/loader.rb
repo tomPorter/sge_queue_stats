@@ -1,4 +1,4 @@
-require_relative 'dm_setup'
+require_relative 'data_mapper/setup'
 require_relative 'summary'
 require_relative 'detail'
 module Qstat

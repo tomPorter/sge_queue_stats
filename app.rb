@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'haml'
-require_relative 'lib/queue_stat/dm_setup'
+require_relative 'lib/queue_stat/data_mapper/setup'
 class QueueStats <Sinatra::Base
   enable :sessions
   FILTER_FIELDS = [:state, :clientcode, :jobid, :user, :queue_name]
