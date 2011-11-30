@@ -17,3 +17,8 @@ Then /^I should see a "([^"]*)" containing "([^"]*)"$/ do |arg1, arg2|
     scope.should have_selector(".#{arg2}")
   end
 end
+
+Then /^I should see the following headings$/ do |table|
+  # table is a Cucumber::Ast::Table  
+  pending
+end

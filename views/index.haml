@@ -1,37 +1,39 @@
 %p.summary= "Job Count: #{summary_counts}"
 %table
-  %tr
-    - for iv in instance_vars
-      %th
-        - case iv
-        - when 'state'
-          %a(href="state/reset" class="#{set_filter_class('state')}")= iv
-        - when 'clientcode'
-          %a(href="clientcode/reset" class="#{set_filter_class('clientcode')}")= iv
-        - when 'jobid'
-          %a(href="jobid/reset" class="#{set_filter_class('jobid')}")= iv
-        - when 'user'
-          %a(href="user/reset" class="#{set_filter_class('user')}")= iv
-        - when 'queue_name'
-          %a(href="queue_name/reset" class="#{set_filter_class('queue_name')}")= iv
-        - else
-          = iv
-  -@jobs.each do |job|
-    %tr(class="job")
-      - job.attributes.each do |k,v|
-        %td 
-          %span(class="#{assign_class(k,v)}")
-            - case k
-            - when :state
-              %a(href="state/#{v}")= v
-            - when :clientcode
-              %a(href="clientcode/#{v}")= v
-            - when :jobid
-              %a(href="jobid/#{v}")= v
-            - when :user
-              %a(href="user/#{v}")= v
-            - when :queue_name
-              %a(href="queue_name/#{v}")= v
-            - else
-              = v
-            
+  %thead
+    %tr
+      - for iv in instance_vars
+        %th
+          - case iv
+          - when 'state'
+            %a(href="state/reset" class="#{set_filter_class('state')}")= iv
+          - when 'clientcode'
+            %a(href="clientcode/reset" class="#{set_filter_class('clientcode')}")= iv
+          - when 'jobid'
+            %a(href="jobid/reset" class="#{set_filter_class('jobid')}")= iv
+          - when 'user'
+            %a(href="user/reset" class="#{set_filter_class('user')}")= iv
+          - when 'queue_name'
+            %a(href="queue_name/reset" class="#{set_filter_class('queue_name')}")= iv
+          - else
+            = iv
+  %tbody
+    -@jobs.each do |job|
+      %tr(class="job")
+        - job.attributes.each do |k,v|
+          %td 
+            %span(class="#{assign_class(k,v)}")
+              - case k
+              - when :state
+                %a(href="state/#{v}")= v
+              - when :clientcode
+                %a(href="clientcode/#{v}")= v
+              - when :jobid
+                %a(href="jobid/#{v}")= v
+              - when :user
+                %a(href="user/#{v}")= v
+              - when :queue_name
+                %a(href="queue_name/#{v}")= v
+              - else
+                = v
+              

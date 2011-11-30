@@ -1,4 +1,4 @@
-Feature: Home page
+Feature: Headings on Home page
 
   Scenario: Reading the Queue Stats page
     When I go to the home page
