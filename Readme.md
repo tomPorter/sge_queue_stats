@@ -25,6 +25,13 @@ To run in test mode (and use dummy data): `RACK_ENV=test ruby em_get_jobs.rb`
 
 `localhost:3000` is address of app.
 
+Note:
+=====
+
+SGE allows customization of data captured about each job.  The models, the index view, 
+the tests, and the methods in `Qstat::Detail` all reflect my particular setup.  
+These should not be too hard to modify to fit your particular situation.  
+
 ToDo:
 =====
 
