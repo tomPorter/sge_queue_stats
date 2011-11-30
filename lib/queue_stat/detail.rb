@@ -19,7 +19,7 @@ module Qstat
 	    
       ph = {}
       ph[:qsid],ph[:user],ph[:state],ph[:start_date],ph[:start_time], ph[:thread] = tokens[0],tokens[3],tokens[4],tokens[5],tokens[6],tokens[-1]
-      ph[:run_time] = get_run_time(ph[:start_date],ph[:start_time])  if ph[:state] == 'r'
+      ph[:run_time] = get_run_time(ph[:start_date],ph[:start_time])  if ['r','s'].include? ph[:state] 
       ph[:queue_name],ph[:system] = get_queue_and_system(tokens)
       ph.delete(:system)   #Not needed at this time.
       ph.merge!(get_details(ph[:qsid])) 

@@ -7,7 +7,7 @@ module Qstat
       @root_qw_line      = '2516302 0.55500 x.flickerw gross        qw    11/14/2011 08:00:22                                    1        '
 			@normal_qw_line    = '2571632 0.00000 x.geniusde archiexd     qw    11/22/2011 16:17:59                                    1        '
       @hqw_line          = '2489626 0.00000 x.Rosiefoo floor        hqw   11/09/2011 14:57:53                                    1        '
-      @s_line            = ''
+      @s_line            = '2559238 0.55500 x.jasperx. fooork       s     11/21/2011 05:04:59 Archive@archive02                  1        '
       @non_existant_line = '1111111 0.00000 x.Rosiefoo floor        hqw   11/09/2011 14:57:53                                    1        '
     end
 
@@ -146,6 +146,11 @@ module Qstat
       (not_populated - [:clientcode,:jobid]).should == []
 	  end
 	
-    it "should return a hash with required keys for a 's' state"
+    it "should return a hash with required keys for a 's' state" do
+      types = [:qsid, :state, :user, :start_date, :start_time, :run_time,  :thread, :queue_name,:clientcode, :jobid, :command ]
+      q = Detail.new(@s_line)
+      not_populated = types - q.keys
+      not_populated.should == []
+    end
   end
 end
