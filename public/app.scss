@@ -80,14 +80,14 @@ body {
 
 th {
   border: 1px dotted gray;
-  padding: table-pad;
+  padding: $table-pad;
   @include plain_anchor();
 
 }
 
 td {
   border: 1px dotted gray;
-  padding: table-pad;
+  padding: $table-pad;
   .qsid {@include plain_anchor();}
   .clientcode {@include plain_anchor();}
   .jobid {@include plain_anchor();}

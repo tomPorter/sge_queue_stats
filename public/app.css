@@ -83,7 +83,7 @@ body {
 
 th {
   border: 1px dotted gray;
-  padding: table-pad; }
+  padding: 1px 5px 1px 5px; }
   th a {
     background-color: lightgray;
     color: black; }
@@ -94,7 +94,7 @@ th {
 
 td {
   border: 1px dotted gray;
-  padding: table-pad; }
+  padding: 1px 5px 1px 5px; }
   td .qsid a {
     background-color: lightgray;
     color: black; }
