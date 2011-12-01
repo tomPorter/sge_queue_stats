@@ -5,6 +5,7 @@ require_relative 'lib/queue_stat/data_mapper/setup'
 require_relative 'lib/queue_stat/helper'
 class QueueStats <Sinatra::Base
   enable :sessions
+  set :haml, {:ugly => true}
   helpers Qstat::Helper 
   
   get '/slower' do

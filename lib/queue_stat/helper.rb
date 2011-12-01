@@ -44,7 +44,7 @@ module Qstat
       query_hash = get_display_filters
       summary_counts = get_summary_counts
       @jobs = Job.all(query_hash)
-      haml :index, :ugly => true,  :layout => (request.xhr? ? false : :layout),  :locals => {:active_filters => query_hash.keys, :refresh => session[:refresh], :instance_vars => instance_variable_names, :summary_counts => summary_counts}
+      haml :index, :layout => (request.xhr? ? false : :layout),  :locals => {:active_filters => query_hash.keys, :refresh => session[:refresh], :instance_vars => instance_variable_names, :summary_counts => summary_counts}
       #haml :index
     end
 
