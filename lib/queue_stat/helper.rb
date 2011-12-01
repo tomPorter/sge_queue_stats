@@ -13,14 +13,20 @@ module Qstat
       end
     end
 
-    def gen_state_link(state_type)
-      "<span class='#{state_type}'><a href='state/#{state_type}'>#{state_type}</a></span>"
+    def gen_state_link(state_type)     
+      if state_type == 'Ttl'
+        "<span class='#{state_type}'>#{state_type}</span>"
+      else
+        "<span class='#{state_type}'><a href='state/#{state_type}'>#{state_type}</a></span>"
+      end
     end
 
     def get_summary_counts()
       summary_hash = {}
       s = Job.all(:fields => [:state]).map {|j| j[:state]}
       ['r','qw','hqw','Eqw','s'].map {|state| summary_hash[state] = s.count(state) }
+      total_count = summary_hash.each_value.reduce(:+)
+      summary_hash['Ttl'] = total_count
       sh = summary_hash.each.map {|k,v| "'#{gen_state_link(k)}': #{v}" }
       sh.join(' ')
     end
