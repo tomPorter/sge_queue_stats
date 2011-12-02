@@ -2,9 +2,9 @@ Feature: Status Summary on Home page
 
   Scenario: Reading the Queue Stats page
     When I go to the home page
-    Then I should see a status line with an entry for "Ttl"
-    And I should see a status line with an entry for "r"
-    And I should see a status line with an entry for "qw"
-    And I should see a status line with an entry for "hqw"
-    And I should see a status line with an entry for "Eqw"
-    And I should see a status line with an entry for "s"
+    Then I should see an entry for "Ttl" in the summary status line
+    And I should see an entry for "r" in the summary status line
+    And I should see an entry for "qw" in the summary status line
+    And I should see an entry for "hqw" in the summary status line
+    And I should see an entry for "Eqw" in the summary status line
+    And I should see an entry for "s" in the summary status line

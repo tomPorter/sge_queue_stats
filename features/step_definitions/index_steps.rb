@@ -16,7 +16,7 @@ Then /^I should see the following headings:$/ do |expected_headers|
   expected_headers.diff!(real_headers)
 end
 
-Then /^I should see a status line with an entry for "([^"]*)"$/ do |arg1|
+Then /^I should see an entry for "([^"]*)" in the summary status line$/ do |arg1|
    #status_link = page.find("p.summary span.#{arg1}")
    page.should have_selector("p.summary span.#{arg1}")
 end

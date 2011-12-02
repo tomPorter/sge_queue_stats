@@ -1,0 +1,106 @@
+=plain_anchor($color: black, $bc: lightgray)
+  a
+    background-color: $bc
+    color: $color
+    &:link, &:visited, &:active
+      text-decoration: none
+    &:hover
+      text-decoration: underline
+
+$full-pad: 10px 10px 10px 10px
+$side-pad: 0px 10px 0px 10px
+$table-pad: 1px 5px 1px 5px
+
+body
+  background-color: lightgray
+  margin-left: 5%
+  margin-right: 5%
+  padding: $full-pad
+  font-family: sans-serif
+
+.summary
+  padding: $full-pad
+  font-size: 1.5em
+  .r
+    +plain_anchor(forestgreen, lightgray)
+  .qw
+    +plain_anchor(goldenrod, lightgray)
+  .hqw
+    +plain_anchor(red, lightgray)
+  .Eqw
+    +plain_anchor(black, red)
+  .s
+    +plain_anchor(black, red)
+
+.nav
+  padding: $full-pad
+  .hdr
+    font-size: 2.5em
+    padding: 0px 30px 0px 30px
+
+.refresh
+  font-size: 1.5em
+  padding: 0px 20px 0px 20px
+  +plain_anchor
+  .slower
+    background-color: #ff3300
+    padding: $side-pad
+  .label
+    padding: $side-pad
+  .faster
+    background-color: #33cc00
+    padding: $side-pad
+
+.cleared
+  background-color: lightgray
+
+.filtered
+  background-color: #33cc00
+
+.error
+  color: red
+
+.hideme
+  display: none
+
+th
+  border: 1px dotted gray
+  padding: $table-pad
+  +plain_anchor
+
+td
+  border: 1px dotted gray
+  padding: $table-pad
+  .qsid
+    +plain_anchor
+  .clientcode
+    +plain_anchor
+  .jobid
+    +plain_anchor
+  .command
+    +plain_anchor
+    font-size: .75em
+  .r
+    +plain_anchor(forestgreen, lightgray)
+  .qw
+    +plain_anchor(goldenrod, lightgray)
+  .hqw
+    +plain_anchor(red, lightgray)
+  .Eqw
+    +plain_anchor(black, red)
+  .s
+    +plain_anchor(black, red)
+  .user
+    +plain_anchor
+  .start_date
+    +plain_anchor
+  .start_time
+    +plain_anchor
+  .run_time
+    +plain_anchor
+  .wait_qsid
+    +plain_anchor
+  .thread
+    +plain_anchor
+  .queue_name
+    +plain_anchor
