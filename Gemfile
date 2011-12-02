@@ -9,6 +9,8 @@ gem 'thin'
 group :test do
   gem 'rspec', '2.7.0'
   gem 'cucumber'
+  gem 'autotest'
+  gem 'ZenTest'
   gem 'capybara'
   gem 'cucumber-sinatra'
 end
