@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'haml'
+require 'json'
 require_relative 'lib/queue_stat/data_mapper/setup'
 require_relative 'lib/queue_stat/helper'
 class QueueStats <Sinatra::Base
@@ -18,6 +19,11 @@ class QueueStats <Sinatra::Base
       session[:refresh] -= 5000
     end
     main_page
+  end
+  
+  get '/all' do
+    content_type :json
+    Job.all.to_json
   end
   
   get '/*/*' do  
