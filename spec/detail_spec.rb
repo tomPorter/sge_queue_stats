@@ -29,6 +29,8 @@ module Qstat
     it "#get_run_time" do
       q = Detail.new(@run_line)
 			q.get_run_time('11/23/2011','14:20:15').should match(/\d{3}:\d{2}/)
+      d,t = DateTime.now.strftime("%m/%d/%Y %H:%M:%S").split
+			q.get_run_time(d,t).should eq "000:00"
     end
 
     it "#get_queue_and_system" do
