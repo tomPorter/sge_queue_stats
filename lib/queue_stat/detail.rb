@@ -28,8 +28,12 @@ module Qstat
 
     def get_run_time(start_date,start_time)
       dtn = DateTime.now
-      offset = (dtn.zone.to_i)/24.0
-      num_of_days = (dtn - DateTime.strptime("#{start_date} #{start_time}","%m/%d/%Y %H:%M:%S")) + offset
+      offset = dtn.zone.to_s
+      sd = DateTime.strptime("#{start_date} #{start_time} #{offset}","%m/%d/%Y %H:%M:%S %z")
+      num_of_days = dtn - sd
+      if num_of_days < 0
+        num_of_days = 0
+      end
       num_of_minutes = (num_of_days * 24 * 60).to_i
       hours = "%03i" % (num_of_minutes.div 60)
       minutes = "%02i" % (num_of_minutes % 60)
