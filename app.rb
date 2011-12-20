@@ -1,20 +1,21 @@
 require 'rubygems'
 require 'sinatra/base'
 require 'haml'
+require 'logger'
 require_relative 'lib/queue_stat/data_mapper/setup'
 require_relative 'lib/queue_stat/helper'
 class QueueStats <Sinatra::Base
-  enable :sessions
+  enable :sessions, :logging
   set :haml, {:ugly => true}
   helpers Qstat::Helper 
-  
+
   get '/slower' do
     session[:refresh] += 5000
     main_page
   end
   
   get '/faster' do
-    if session[:refresh] >= 35000
+    if session[:refresh] >= 20000
       session[:refresh] -= 5000
     end
     main_page

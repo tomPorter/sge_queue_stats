@@ -4,6 +4,12 @@
   %title="#{title}"
   %script{:type => "text/javascript",:charset => "Utf-8",:src => "http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"}
   %link(rel="stylesheet" type="text/css" href="app.css")
+  :javascript
+    $(getUpdate);
+    function getUpdate() {
+      $(".jobs").load("/");
+      setTimeout(getUpdate,#{refresh});
+    }
 %body
   %p.nav
     %span.hdr Queue Monitor
@@ -14,9 +20,3 @@
       %span.label= "Refresh Rate: #{refresh.to_i/1000} s"
       %a.faster(title="Refresh more quickly" href="/faster") Faster
   .jobs= yield
-  :javascript
-    $(getUpdate);
-    function getUpdate() {
-      $().load("/");
-      setTimeout(getUpdate,#{refresh});
-    }
