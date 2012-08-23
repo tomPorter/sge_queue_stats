@@ -1,5 +1,6 @@
 require 'date'
 module Qstat
+  JOB_STATES = ['qw','hqw','hRwq','r','t','Rr','Rt','s','ts','S','tS','T','tT','Rs','Rts','RS','RtS','RT','RtT','Eqw','Ehqw','EhRqw','dr','dt','dRr','dRt','ds','dS','dT','dRs','dRS','dRT']
 	class BadQstatLineError < Exception
 	end
 	
@@ -15,7 +16,7 @@ module Qstat
     def gen_job_hash(qstat_line)
       tokens = qstat_line.split()
       raise BadQstatLineError if tokens.size < 8
-      raise BddQstatLineError unless ['r','qw','Eqw','hqw','s',].include? tokens[4]
+      raise BadQstatLineError unless JOB_STATES.include? tokens[4]
 	    
       ph = {}
       ph[:qsid],ph[:user],ph[:state],ph[:start_date],ph[:start_time], ph[:thread] = tokens[0],tokens[3],tokens[4],tokens[5],tokens[6],tokens[-1]

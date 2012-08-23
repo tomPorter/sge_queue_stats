@@ -1,6 +1,7 @@
 module Qstat
   module Helper
     FILTER_FIELDS = [:state, :clientcode, :jobid, :user, :queue_name]
+    JOB_STATES = ['qw','hqw','hRwq','r','t','Rr','Rt','s','ts','S','tS','T','tT','Rs','Rts','RS','RtS','RT','RtT','Eqw','Ehqw','EhRqw','dr','dt','dRr','dRt','ds','dS','dT','dRs','dRS','dRT']
     def get_help_text()
     "Hover over fields to find filter links.  Filter results by clicking on filter links. Clear by clicking on green heading field."
     end
@@ -24,10 +25,10 @@ module Qstat
     def get_summary_counts()
       summary_hash = {}
       s = Job.all(:fields => [:state]).map {|j| j[:state]}
-      ['r','qw','hqw','Eqw','s'].map {|state| summary_hash[state] = s.count(state) }
+      JOB_STATES.map {|state| summary_hash[state] = s.count(state) } 
       total_count = summary_hash.each_value.reduce(:+)
       summary_hash['Ttl'] = total_count
-      sh = summary_hash.each.map {|k,v| "'#{gen_state_link(k)}': #{v}" }
+      sh = summary_hash.each.map {|k,v| "'#{gen_state_link(k)}': #{v}" if v > 0 }
       sh.join(' ')
     end
       
