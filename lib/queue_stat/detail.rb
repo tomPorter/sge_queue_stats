@@ -84,7 +84,8 @@ module Qstat
     end
     def is_needed?(line)
       k,v = line.strip.split()
-      ['jid_predecessor_list','error','cwd:','job_name:','context:'].include? k
+      #['jid_predecessor_list','error','cwd:','job_name:','context:'].include? k
+      ['jid_predecessor_list','error','cwd:','job_name:','context:','hard_queue_list:'].include? k
     end
 
     def build_detail_hash(detail_lines)
@@ -92,6 +93,10 @@ module Qstat
       detail_lines.shift
       needed_lines = detail_lines.select {|line| is_needed? line }
       needed_lines.each { |line| gh.merge!(gen_detail_hash(line)) }
+      if gh.has_key?(:hard_queue_list)
+        gh[:queue_name] = gh[:hard_queue_list]
+        gh.delete :hard_queue_list
+      end
       if gh.has_key?(:cwd) and gh.has_key?(:job_name)
         cmd = gh[:cwd] + '/' + gh[:job_name]
         gh[:command] = cmd

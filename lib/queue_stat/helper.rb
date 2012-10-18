@@ -44,7 +44,7 @@ module Qstat
 
     def main_page()   
       session[:start] ||= 10
-      session[:refresh] ||= 30000
+      session[:refresh] ||= 60000
       session[:start] += 1
       #load_jobs(settings.environment,session[:start])
       instance_variable_names = Job.properties.map {|p| p.name.to_s }
