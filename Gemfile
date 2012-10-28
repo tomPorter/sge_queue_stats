@@ -7,7 +7,7 @@ gem 'datamapper'
 gem 'dm-sqlite-adapter'
 gem 'thin'
 group :test do
-  gem 'rspec', '2.7.0'
+  gem 'rspec', '2.8.0'
   gem 'cucumber'
   gem 'autotest'
   gem 'ZenTest'

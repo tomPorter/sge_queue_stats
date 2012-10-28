@@ -1,1 +1,1 @@
-rvm use 1.9.3@sinatra  --create
+rvm use 1.9.3@sge_queue_stats  --create
