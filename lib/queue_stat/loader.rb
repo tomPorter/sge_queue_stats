@@ -21,7 +21,7 @@ module Qstat
     def Loader.create_job(qsid)
       error_reason = qsid.delete(:error_reason)
       j = Job.new(qsid)
-      j.error = Error.new(:error_message => error_reason) if qsid[:state] == 'Eqw'
+      j.error = Error.new(:error_message => error_reason) if ['Eqw','Ehqw','EhRqw'].include? qsid[:state]
       j.save
     end
   end

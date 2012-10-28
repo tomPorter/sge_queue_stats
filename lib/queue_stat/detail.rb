@@ -1,5 +1,6 @@
 require 'date'
 module Qstat
+  JOB_STATES = ['qw','hqw','hRwq','r','t','Rr','Rt','s','ts','S','tS','T','tT','Rs','Rts','RS','RtS','RT','RtT','Eqw','Ehqw','EhRqw','dr','dt','dRr','dRt','ds','dS','dT','dRs','dRS','dRT']
 	class BadQstatLineError < Exception
 	end
 	
@@ -15,7 +16,7 @@ module Qstat
     def gen_job_hash(qstat_line)
       tokens = qstat_line.split()
       raise BadQstatLineError if tokens.size < 8
-      raise BddQstatLineError unless ['r','qw','Eqw','hqw','s',].include? tokens[4]
+      raise BadQstatLineError unless JOB_STATES.include? tokens[4]
 	    
       ph = {}
       ph[:qsid],ph[:user],ph[:state],ph[:start_date],ph[:start_time], ph[:thread] = tokens[0],tokens[3],tokens[4],tokens[5],tokens[6],tokens[-1]
@@ -83,7 +84,8 @@ module Qstat
     end
     def is_needed?(line)
       k,v = line.strip.split()
-      ['jid_predecessor_list','error','cwd:','job_name:','context:'].include? k
+      #['jid_predecessor_list','error','cwd:','job_name:','context:'].include? k
+      ['jid_predecessor_list','error','cwd:','job_name:','context:','hard_queue_list:'].include? k
     end
 
     def build_detail_hash(detail_lines)
@@ -91,6 +93,10 @@ module Qstat
       detail_lines.shift
       needed_lines = detail_lines.select {|line| is_needed? line }
       needed_lines.each { |line| gh.merge!(gen_detail_hash(line)) }
+      if gh.has_key?(:hard_queue_list)
+        gh[:queue_name] = gh[:hard_queue_list]
+        gh.delete :hard_queue_list
+      end
       if gh.has_key?(:cwd) and gh.has_key?(:job_name)
         cmd = gh[:cwd] + '/' + gh[:job_name]
         gh[:command] = cmd
